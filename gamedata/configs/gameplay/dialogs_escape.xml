@@ -1849,6 +1849,7 @@
 			</phrase>
 			<phrase id="3">
 				<text>yegor_letov_start_3</text>
+				<give_info>yegor_letov_start_done</give_info>
 			</phrase>
 		</phrase_list>
 	</dialog>
