@@ -110,4 +110,8 @@
 	<info_portion id="quest_guitar_give"></info_portion>
 	<info_portion id="quest_has_guitar"></info_portion>
 	<info_portion id="quest_guitar_done"></info_portion>
+	
+	<info_portion id="quest_weed_give"></info_portion>
+	<info_portion id="quest_has_weed"></info_portion>
+	<info_portion id="quest_weed_done"></info_portion>
 </game_information_portions>

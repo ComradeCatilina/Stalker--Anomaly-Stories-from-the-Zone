@@ -1872,4 +1872,54 @@
 		</phrase_list>
 	</dialog>
 	
+	<dialog id="weed_quest_start">
+		<dont_has_info>weed_quest_start_done</dont_has_info>
+		<has_info>quest_guitar_done</has_info>
+		<precondition>dialogs.actor_stalker</precondition>
+		<precondition>dialogs.is_actor_noob</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>yegor_letov_weed_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>yegor_letov_weed_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>yegor_letov_weed_2</text>
+				<give_info>weed_quest_start_done</give_info>
+				<action>dialogs_escape.give_weed_quest</action>
+			</phrase>
+			<phrase id="3">
+				<text>yegor_letov_weed_3</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="weed_quest_bring">
+		<has_info>weed_quest_start_done</has_info>
+		<precondition>dialogs_escape.is_has_weed_yegor_letov</precondition>
+		<phrase_list>
+				<phrase id="0">
+					<has_info>quest_has_weed</has_info>
+					<text>yegor_letov_weed_quest_0</text>
+					<action>dialogs_escape.transfer_marijuana_to_yegor_letov</action>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>yegor_letov_weed_quest_1</text>
+					<give_info>quest_weed_done</give_info>
+					<next>2</next>
+				</phrase>
+				<phrase id="2">
+					<text>yegor_letov_weed_quest_2</text>
+					<next>3</next>
+				</phrase>
+				<phrase id="3">
+					<text>yegor_letov_weed_quest_3</text>
+				</phrase>
+		</phrase_list>
+	</dialog>
 </game_dialogs>

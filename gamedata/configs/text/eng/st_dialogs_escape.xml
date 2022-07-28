@@ -884,5 +884,28 @@
 	<string id="yegor_letov_start_3">
 		<text>I'm Yegor the Old, but you can call me Dedushka Yegor. I've lived through interesting times you see: the death wails of a rotting system, then Perestroika and Glasnost... And then hope, and again disappointment... I couldn't live there anymore, and in an hope of freedom, I came here, only to find corruption and animals again.</text>
 	</string>
-
+	<string id="yegor_letov_weed_0">
+		<text>How are you doing? Do you like your guitar?</text>
+	</string>
+	<string id="yegor_letov_weed_1">
+		<text>Yeah the guitar is great. Only my weed supply ran dry, I gave you the last of my stash. Without some weed my creativity can't reach my mind. Care to help an old man out?</text>
+	</string>
+	<string id="yegor_letov_weed_2">
+		<text>Sure.</text>
+	</string>
+	<string id="yegor_letov_weed_3">
+		<text>Not now.</text>
+	</string>
+	<string id="yegor_letov_weed_quest_0">
+		<text>Hey Yegor, I found you some weed.</text>
+	</string>
+	<string id="yegor_letov_weed_quest_1">
+		<text>Oh man, thanks alot!</text>
+	</string>
+	<string id="yegor_letov_weed_quest_2">
+		<text>Honestly, wasn't that easy to find.</text>
+	</string>
+	<string id="yegor_letov_weed_quest_3">
+		<text>Seriously? Man, you should have told me, I would have given you the contact of my old friend when I was still a Freedom member. He can hook you up!</text>
+	</string>
 </string_table>

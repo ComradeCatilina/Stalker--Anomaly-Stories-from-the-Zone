@@ -287,5 +287,19 @@ function is_has_guitar_yegor_letov()
 end
 function transfer_guitar_a_to_yegor_letov(first_speaker, second_speaker)
   dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "guitar_a")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 500)
+end
+
+function give_weed_quest()
+   task_manager.get_task_manager():give_task("quest_weed_give")
+end
+function is_has_weed_yegor_letov()
+  if db.actor:object("marijuana") then
+    return true
+  end
+  return false
+end
+function transfer_marijuana_to_yegor_letov(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "marijuana")
   dialogs.relocate_money_to_actor(first_speaker, second_speaker, 1000)
 end

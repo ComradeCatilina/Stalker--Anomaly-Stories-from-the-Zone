@@ -581,12 +581,23 @@
 
 <!-- Yegor -->
 	<string id="guitar_yegor_letov_find_name">
-    <text>Find Dedushka Yegor a Guitar.</text>
+    <text>Find Dedushka Yegor a Guitar</text>
   </string>
   <string id="guitar_yegor_letov_bring_name">
-    <text>Bring Dedushka Yegor the Guitar.</text>
+    <text>Bring Dedushka Yegor the Guitar</text>
   </string>
   <string id="guitar_yegor_letov_descr">
-    <text>Dedushka Yegor needs a guitar to replace the one he pawned away.</text>
-  </string> 
+    <text>Dedushka Yegor needs a guitar to replace the one he pawned away</text>
+  </string>
+  
+  <string id="weed_yegor_letov_find_name">
+    <text>Find Dedushka Yegor some weed</text>
+  </string>
+  <string id="weed_yegor_letov_bring_name">
+    <text>Bring Dedushka Yegor the weed</text>
+  </string>
+  <string id="weed_yegor_letov_descr">
+    <text>Dedushka Yegor needs some weed to help his creativity</text>
+  </string>
+  
 </string_table>
