@@ -290,7 +290,7 @@
 		
 		<rank>8200</rank>
 		<money min="5000" max="10000" infinitive="1"/>
-		<reputation>1000</reputation>
+		<reputation>5000</reputation>
 		<crouch_type>-1</crouch_type>
 		<panic_treshold>0</panic_treshold>
 		<visual>actors\mnp_npc_remeik\leshui</visual>
@@ -301,6 +301,7 @@
 		ammo_5.56x45_ap = 1 \n
 		wpn_sig220 \n
 		ammo_11.43x23_fmj = 1 \n
+		marijuana = 1 \n
 		</supplies>
 #include "gameplay\character_criticals.xml"
 		<start_dialog>lyoshik_start</start_dialog>

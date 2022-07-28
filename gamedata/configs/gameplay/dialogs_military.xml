@@ -275,6 +275,7 @@
 				<next>2</next>
 			</phrase>
 			<phrase id="1">
+				<has_info>quest_weed_done</has_info>
 				<text>lyoshik_start_1</text>
 				<next>3</next>
 			</phrase>
