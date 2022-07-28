@@ -343,7 +343,6 @@
 #include "gameplay\character_criticals.xml"
 		<!-- Traning -->
 		<start_dialog>yegor_letov_start</start_dialog>
-		<actor_dialog>guitar_quest</actor_dialog>
 		<actor_dialog>guitar_quest_bring</actor_dialog>
 		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
 		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>

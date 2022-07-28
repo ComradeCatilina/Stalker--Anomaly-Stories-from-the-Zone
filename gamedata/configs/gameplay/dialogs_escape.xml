@@ -1856,7 +1856,7 @@
 	</dialog>
 	
 	<dialog id="guitar_quest_bring">
-		<has_info>quest_guitar_give</has_info>
+		<has_info>yegor_letov_start_done</has_info>
 		<precondition>dialogs_escape.is_has_guitar_yegor_letov</precondition>
 		<phrase_list>
 				<phrase id="1">
