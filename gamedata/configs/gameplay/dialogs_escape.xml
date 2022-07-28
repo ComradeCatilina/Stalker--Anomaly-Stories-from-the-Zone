@@ -1849,8 +1849,26 @@
 			</phrase>
 			<phrase id="3">
 				<text>yegor_letov_start_3</text>
+				<action>dialogs_escape.give_guitar_quest</action>
 				<give_info>yegor_letov_start_done</give_info>
 			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="guitar_quest_bring">
+		<has_info>quest_guitar_give</has_info>
+		<precondition>dialogs_escape.is_has_guitar_yegor_letov</precondition>
+		<phrase_list>
+				<phrase id="1">
+					<text>Thank you stalker.</text>
+					<give_info>quest_guitar_done</give_info>
+				</phrase>
+				<phrase id="0">
+				<has_info>quest_has_guitar</has_info>
+				<text>Here's the guitar.</text>
+				<action>dialogs_escape.transfer_guitar_a_to_yegor_letov</action>
+				<next>1</next>
+				</phrase>
 		</phrase_list>
 	</dialog>
 	
