@@ -1910,7 +1910,6 @@
 				</phrase>
 				<phrase id="1">
 					<text>yegor_letov_weed_quest_1</text>
-					<give_info>quest_weed_done</give_info>
 					<next>2</next>
 				</phrase>
 				<phrase id="2">
@@ -1919,6 +1918,8 @@
 				</phrase>
 				<phrase id="3">
 					<text>yegor_letov_weed_quest_3</text>
+					<action>dialogs_escape.give_meet_lyoshik_quest</action>
+					<give_info>quest_weed_done</give_info>
 				</phrase>
 		</phrase_list>
 	</dialog>

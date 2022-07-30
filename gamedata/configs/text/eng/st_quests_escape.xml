@@ -600,4 +600,11 @@
     <text>Dedushka Yegor needs some weed to help his creativity</text>
   </string>
   
+  <string id="give_meet_lyoshik_quest_title">
+    <text>Meet Lyoshik</text>
+  </string>
+  <string id="give_meet_lyoshik_quest_descr">
+    <text>Dedushka Yegor gave me the contact of an old friend of his</text>
+  </string>
+  
 </string_table>
