@@ -853,3 +853,13 @@ target = {=actor_has_item(marijuana) =actor_has_item(marijuana)} yegor_letov
 condlist_0 = {+quest_weed_done} complete
 on_complete = %=reward_item(joint) =inc_faction_goodwill_to_actor(stalker:25)%
 
+[give_meet_lyoshik_quest]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_meet_lyoshik_quest_title
+target = lyoshik
+descr = give_meet_lyoshik_quest_descr
+
+condlist_0 = {+quest_meet_lyoshik_done} complete

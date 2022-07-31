@@ -275,6 +275,10 @@ end
 -- ------------------------------------------------------------------------------------------------
 -- Yegor-
 -- ------------------------------------------------------------------------------------------------
+function give_task(name)
+	task_manager.get_task_manager():give_task(name)
+end
+
 
 function give_guitar_quest()
    task_manager.get_task_manager():give_task("quest_guitar_give")
@@ -302,4 +306,8 @@ end
 function transfer_marijuana_to_yegor_letov(first_speaker, second_speaker)
   dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "marijuana")
   dialogs.relocate_money_to_actor(first_speaker, second_speaker, 1000)
+end
+
+function give_meet_lyoshik_quest()
+	dialogs_escape.give_task('give_meet_lyoshik_quest')
 end

@@ -1,0 +1,40 @@
+
+------- GENERAL Functions --------
+
+
+function poluchit_po_litsu(actor, npc)                                            
+    npc:force_set_goodwill(-5000, actor)
+end
+
+function give_task(name)
+	task_manager.get_task_manager():give_task(name)
+end
+
+-------Lyoshik Quests --------
+
+------Stick Up Quest [Lyoshik Quest 1] ------
+
+function give_task_lyoshik_1()
+	dialogs_stories.give_task('give_task_lyoshik_1')
+end
+
+function spawn_drug_package()
+     local pos = vector():set( -193.35643005371,-14.938454627991,379.76715087891 )
+     local se_obj = alife_create( "quest_package_1", pos, 125838, 2108 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_1" )
+     end
+end
+
+function is_has_drug_stash_lyoshik()
+  if db.actor:object("quest_package_1") then
+    return true
+  end
+  return false
+end
+
+function transfer_drug_stash_to_lyoshik(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "quest_package_1")
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "marijuana")
+end
+

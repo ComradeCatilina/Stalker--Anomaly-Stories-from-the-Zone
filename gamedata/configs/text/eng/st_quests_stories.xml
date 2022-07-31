@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!--===========================================================
+<
+< TEXT STRINGS FOR STORIES FROM THE ZONE
+<	Anomaly 1.5 - 
+<
+<	Made by: Catilina
+<	Last revised: wip
+<
+<===========================================================-->
+
+<string_table>
+
+	<string id="give_task_lyoshik_1_name">
+		<text>Stick Up Business</text>
+	</string>
+	<string id="bring_task_lyoshik_1_name">
+		<text>Bring the package to Lyoshik</text>
+	</string>
+	<string id="give_task_lyoshik_1_descr">
+		<text>Lyoshik wants me to take a package from some bandits</text>
+	</string>
+	
+</string_table>
