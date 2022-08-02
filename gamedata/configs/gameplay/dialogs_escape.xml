@@ -1833,10 +1833,10 @@
     <dialog id="yegor_letov_start">
 		<dont_has_info>yegor_letov_start_done</dont_has_info>
 		<precondition>dialogs.actor_stalker</precondition>
-		<precondition>dialogs.is_actor_noob</precondition>
 		<phrase_list>
 			<phrase id="0">
 				<text>yegor_letov_start_0</text>
+				<action>dialogs_stories.give_task_lyoshik_2</action>
 				<next>1</next>
 				<next>2</next>
 			</phrase>

@@ -859,4 +859,7 @@
 	<string id="lyoshik_name">
 		<text>Lyoshik</text>
 	</string>
+	<string id="courrier_lyoshik_name">
+		<text>Courrier</text>
+	</string>
 </string_table>

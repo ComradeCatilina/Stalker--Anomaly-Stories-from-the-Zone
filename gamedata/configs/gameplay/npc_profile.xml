@@ -1829,5 +1829,7 @@
 	<character id="lyoshik">
 		<class>lyoshik</class>
 	</character>
-	
+	<character id="courrier_lyoshik">
+		<class>courrier_lyoshik</class>
+	</character>
 </xml>

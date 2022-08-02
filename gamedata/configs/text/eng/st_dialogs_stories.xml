@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+-----Lyoshik-----
+
+---Lyoshik Task 1---
+
+	<string id="lyoshik_task_2_0">
+		<text>I got the package.</text>
+	</string>
+	<string id="lyoshik_task_2_1">
+		<text>Nice here is your weed.</text>
+	</string>
+	<string id="lyoshik_task_2_2">
+		<text>What the fuck? Is this a fucking joke?</text>
+	</string>
+	<string id="lyoshik_task_2_3">
+		<text>Hahaha, relax I'm joking, here is your reward. \n \nHow was it? Did you enjoy your trip?</text>
+	</string>
+	<string id="lyoshik_task_2_4">
+		<text>You were not lying, they put on a fight.</text>
+	</string>
+	<string id="lyoshik_task_2_5">
+		<text>The Gods of the Zone were on my side.</text>
+	</string>
+	<string id="lyoshik_task_2_6">
+		<text>I live - they don't. I'm not complaining.</text>
+	</string>
+	<string id="lyoshik_task_2_7">
+		<text>I have to confess, I wasn't sure if you'd come back alive ... or if you'd run away with my package. Good, you seem of the trustworthy type, we will do some good business together.\n \nTalking of business, I got a job for you. Lick your wounds, spend your money or burry it if that's your jam. When you're ready, come back to me and we will discuss the problem.</text>
+	</string>
+	<string id="lyoshik_task_2_8">
+		<text>Ah, you're one of those... I don't judge.</text>
+	</string>
+	<string id="lyoshik_task_2_9">
+		<text>...</text>
+	</string>
+	<string id="lyoshik_task_2_10">
+		<text>Be it as it may, I have to confess, I wasn't sure if you'd come back alive ... or if you'd run away with my package. Good, you seem of the trustworthy type, we will make some good business together.\n \nTalking of business, I got a job for you. Lick your wounds, spend your money or burry it if that's your jam. When you're ready, come back to me and we will discuss the problem.</text>
+	</string>
+	
+---Lyoshik Task 2---
+	<string id="lyoshik_task_2_1_0">
+		<text>I'm ready for your task.</text>
+	</string>
+	<string id="lyoshik_task_2_1_1">
+		<text>Good to see yo're hungry for cash. \n \nI was expecting a courrier in my services, but he didn't show up. I don't know what happened to him; if he died, fell in a hole, fell in love or betrayed me. The important matter is that he carried sensible information. \n \nI want you to find him or his remains and recover the PDA. If he's still alive, find out what happened. If he betrayed me, give him the traitor's fate.</text>
+	</string>
+	<string id="lyoshik_task_2_1_2">
+		<text>I understand. Where should I look for him?</text>
+	</string>
+	<string id="lyoshik_task_2_1_3">
+		<text>He was supposed to come from the Dead City. But if I were you, I'd start with the Barkeeper, he has a keen eye, and if my courrier passed thourgh there the Barkeeper certainly knows.</text>
+	</string>
+	<string id="lyoshik_task_2_1_4">
+		<text>Alright, I'll hit the road then.</text>
+	</string>
+	<string id="lyoshik_task_2_1_5">
+		<text>I trust your capabilities, but be vigiliant. He is a though guy, so whatever got him isn't some random dog. And if he's still alive, well...</text>
+	</string>
+	<string id="lyoshik_task_2_1_6">
+		<text>I'll be carefull.</text>
+	</string>
+	<string id="lyoshik_task_2_1_7">
+		<text>Good luck.</text>
+	</string>
+	
+	
+</string_table>

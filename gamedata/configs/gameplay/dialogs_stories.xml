@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<game_dialogs>
+
+----- Lyhosik Tasks ------
+
+
+<dialog id="lyoshik_task_2">
+		<has_info>lyoshik_start_done</has_info>
+		<dont_has_info>quest_task_lyoshik_1_done</dont_has_info>
+		<precondition>dialogs_stories.is_has_drug_stash_lyoshik</precondition>
+		<phrase_list>
+				<phrase id="0">
+					<text>lyoshik_task_2_0</text>
+					<action>dialogs_escape.transfer_marijuana_to_yegor_letov</action>
+					<give_info>quest_task_lyoshik_1_done</give_info>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>lyoshik_task_2_1</text>
+					<next>2</next>
+				</phrase>
+				<phrase id="2">
+					<text>lyoshik_task_2_2</text>
+					<next>3</next>
+				</phrase>
+				<phrase id="3">
+					<text>lyoshik_task_2_3</text>
+					<action>dialogs_escape.give_meet_lyoshik_quest</action>
+				</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</game_dialogs>
