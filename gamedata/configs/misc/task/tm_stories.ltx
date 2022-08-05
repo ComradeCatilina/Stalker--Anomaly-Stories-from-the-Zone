@@ -6,8 +6,47 @@
 ;	Made by: Catilina
 ;
 ;==============================================================
+;------------------------------------------------------------------------------------------
+; Yegor QUESTLINES
+;------------------------------------------------------------------------------------------
 
-Quest Lyoshik 1
+
+[quest_guitar_give]
+icon = ui_icons_cordon22
+prior = 2
+storyline = false
+title = {=actor_has_item(guitar_a) =actor_has_item(guitar_a)} guitar_yegor_letov_bring_name, guitar_yegor_letov_find_name
+descr = guitar_yegor_letov_descr
+target = {=actor_has_item(guitar_a) =actor_has_item(guitar_a)} yegor_letov
+condlist_0 = {+quest_guitar_done} complete
+on_complete = %=reward_item(joint) =inc_faction_goodwill_to_actor(stalker:25)%
+
+[quest_weed_give]
+icon = ui_icons_cordon22
+prior = 2
+storyline = false
+title = {=actor_has_item(marijuana) =actor_has_item(marijuana)} weed_yegor_letov_bring_name, weed_yegor_letov_find_name
+descr = weed_yegor_letov_descr
+target = {=actor_has_item(marijuana) =actor_has_item(marijuana)} yegor_letov
+condlist_0 = {+quest_weed_done} complete
+on_complete = %=reward_item(joint) =inc_faction_goodwill_to_actor(stalker:25)%
+
+[give_meet_lyoshik_quest]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_meet_lyoshik_quest_title
+target = lyoshik
+descr = give_meet_lyoshik_quest_descr
+
+condlist_0 = {+quest_meet_lyoshik_done} complete
+
+;------------------------------------------------------------------------------------------
+; Lyoshik QUESTLINES
+;------------------------------------------------------------------------------------------
+
+--Quest Lyoshik 1--
 
 [give_task_lyoshik_1]
 icon = ui_inGame2_Laboratoriya_X8
@@ -23,7 +62,7 @@ condlist_0 = {+quest_task_lyoshik_1_done} complete
 on_complete = %=reward_money(5000)%
 
 
-Quest Lyoshik 2
+--Quest Lyoshik 2--
 
 [give_task_lyoshik_2]
 icon = ui_inGame2_Laboratoriya_X8
@@ -37,4 +76,41 @@ descr = give_task_lyoshik_2_descr
 
 condlist_0 = {+quest_task_lyoshik_2_done} complete
 on_init = %=spawn_courrier_dead()%
-on_complete = %=reward_money(5000)%
+on_complete = %=reward_money(3500)%
+
+
+
+--Quest Lyoshik 5--
+
+[give_task_lyoshik_5_danila]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_task_lyoshik_5_danila_title
+target = 
+descr = give_task_lyoshik_5_danila_descr
+
+condlist_0 = {+quest_meet_lyoshik_done} complete
+
+[give_task_lyoshik_5_boris]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_task_lyoshik_5_boris
+target = 
+descr = give_task_lyoshik_5_boris_descr
+
+condlist_0 = {+quest_meet_lyoshik_done} complete
+
+[give_task_lyoshik_5_sergey]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_task_lyoshik_5_sergey
+target = 
+descr = give_task_lyoshik_5_sergey_descr
+
+condlist_0 = {+quest_meet_lyoshik_done} complete

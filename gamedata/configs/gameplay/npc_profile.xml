@@ -1822,7 +1822,7 @@
 		<class>yan_ghost</class>
 	</character>
 	
-	<!-- Yegor Letov -->	
+	<!-- Stories from the Zone -->	
 	<character id="yegor_letov">
 		<class>yegor_letov</class>
 	</character>
@@ -1831,5 +1831,14 @@
 	</character>
 	<character id="courrier_lyoshik">
 		<class>courrier_lyoshik</class>
+	</character>
+	<character id="danila_bragov">
+		<class>danila_bragov</class>
+	</character>
+	<character id="boris_blade">
+		<class>boris_blade</class>
+	</character>
+	<character id="sergey_malatov">
+		<class>sergey_malatov</class>
 	</character>
 </xml>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+-----Charon-----
+
+---Charon Task 1---
+	
+	<string id="charon_task_1_0">
+		<text>Father, I want to do more for the glory of Monolith.</text>
+	</string>
+	<string id="charon_task_1_1">
+		<text>My son, it's always good to hear such devotion to the cause. Indeed the enemies of Monolith are many, but the Monolith gives us strength. \n \nI need you to go to our brothers in the Red Forest and retrieve an important delivery. </text>
+	</string>
+	<string id="charon_task_1_2">
+		<text>For Monolith.</text>
+	</string>
+	<string id="charon_task_1_3">
+		<text>For Monolith.</text>
+	</string>
+	
+	
+</string_table>

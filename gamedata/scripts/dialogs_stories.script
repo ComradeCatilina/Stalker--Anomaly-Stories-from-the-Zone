@@ -38,8 +38,32 @@ function transfer_drug_stash_to_lyoshik(first_speaker, second_speaker)
   dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "marijuana")
 end
 
-------Stick Up Quest [Lyoshik Quest 2] ------
+------Courrier Quest [Lyoshik Quest 2] ------
 
 function give_task_lyoshik_2()
 	dialogs_stories.give_task('give_task_lyoshik_2')
+end
+
+function is_has_courrier_pda_lyoshik()
+  if db.actor:object("broken_pda") then
+    return true
+  end
+  return false
+end
+
+function transfer_courrier_pda_to_lyoshik(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "broken_pda")
+end
+
+------Recruitment Quest [Lyoshik Quest 5] ------
+function give_task_lyoshik_5_danila()
+	dialogs_stories.give_task('give_task_lyoshik_5_danila')
+end
+
+function give_task_lyoshik_5_boris()
+	dialogs_stories.give_task('give_task_lyoshik_5_boris')
+end
+
+function give_task_lyoshik_5_sergey()
+	dialogs_stories.give_task('give_task_lyoshik_5_sergey')
 end

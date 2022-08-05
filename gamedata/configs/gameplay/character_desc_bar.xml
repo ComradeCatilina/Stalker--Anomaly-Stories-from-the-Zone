@@ -40,6 +40,8 @@
         <!----------g0dl1ke--------->
 		<actor_dialog>devushka_4_help</actor_dialog>
 		<actor_dialog>devushka_help</actor_dialog>
+		<!----------SFTZ--------->
+		<actor_dialog>lyoshik_task_2_bar</actor_dialog>
 	</specific_character>
 
 		

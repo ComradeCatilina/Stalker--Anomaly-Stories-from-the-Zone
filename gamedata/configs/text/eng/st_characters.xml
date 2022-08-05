@@ -862,4 +862,7 @@
 	<string id="courrier_lyoshik_name">
 		<text>Courrier</text>
 	</string>
+	<string id="boris_blade_name">
+		<text>Boris the Blade</text>
+	</string>
 </string_table>
