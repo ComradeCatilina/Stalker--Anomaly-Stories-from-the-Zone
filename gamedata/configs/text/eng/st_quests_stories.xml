@@ -21,5 +21,35 @@
 	<string id="give_task_lyoshik_1_descr">
 		<text>Lyoshik wants me to take a package from some bandits</text>
 	</string>
+	<string id="give_task_lyoshik_2_name">
+		<text>Find Lyoshik's courrier</text>
+	</string>
+	<string id="bring_task_lyoshik_2_name">
+		<text>Bring the PDA to Lyoshik</text>
+	</string>
+	<string id="give_task_lyoshik_2_descr">
+		<text>Lyoshik wants me to find his courrier who went missing and recover the PDA</text>
+	</string>
+	
+	<string id="give_task_lyoshik_5_danila_title">
+		<text>Find and recruit Danila</text>
+	</string>
+	<string id="give_task_lyoshik_5_danila_descr">
+		<text>Lyoshik wants me to find and recruit Danila. Apparently he could be somewhere around Zaton or Jupiter.</text>
+	</string>
+	<string id="give_task_lyoshik_5_boris_title">
+		<text>Find and recruit Boris</text>
+	</string>
+	<string id="give_task_lyoshik_5_boris_descr">
+		<text>Lyoshik wants me to find and recruit Boris. I should ask among weapon traders if they have seen him.</text>
+	</string>
+	<string id="give_task_lyoshik_5_sergey_title">
+		<text>Find an recruit Sergey</text>
+	</string>
+	<string id="give_task_lyoshik_5_sergey_descr">
+		<text>Lyoshik wants me to find and recruit Sergey. I have to ask around if someone has seen him.</text>
+	</string>
+	
+	
 	
 </string_table>

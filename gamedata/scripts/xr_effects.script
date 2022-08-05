@@ -6165,3 +6165,15 @@ function spawn_drug_package()
           printe("!ERROR: unable to spawn quest_package_1" )
      end
 end
+
+function spawn_courrier_dead()
+    local pos = vector():set( -238.41427612305,0.79965215921402,173.2663269043 )
+    local se_obj = alife_create( "courrier_lyoshik", pos, 14709, 1845 )
+	if (se_obj) then
+		se_obj:kill()
+	end
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn courrier of lyoshik" )
+    end
+end
+	

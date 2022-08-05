@@ -384,8 +384,263 @@
 				<phrase id="3">
 					<text>lyoshik_task_2_3</text>
 					<give_info>quest_task_lyoshik_1_done</give_info>
+					<next>4</next>
+					<next>5</next>
+					<next>6</next>
+				</phrase>
+				<phrase id="4">
+					<text>lyoshik_task_2_4</text>
+					<next>7</next>
+				</phrase>
+				<phrase id="5">
+					<has_info>member_gods_zone</has_info>
+					<text>lyoshik_task_2_5</text>
+					<next>8</next>
+				</phrase>
+				<phrase id="6">
+					<text>lyoshik_task_2_6</text>
+					<next>7</next>
+				</phrase>
+				<phrase id="7">
+					<text>lyoshik_task_2_7</text>
+					<give_info>quest_give_lyoshik_2</give_info>
+				</phrase>
+				<phrase id="8">
+					<text>lyoshik_task_2_8</text>
+					<next>9</next>
+				</phrase>
+				<phrase id="9">
+					<text>lyoshik_task_2_9</text>
+					<next>10</next>
+				</phrase>
+				<phrase id="10">
+					<text>lyoshik_task_2_10</text>
+					<give_info>quest_give_lyoshik_2</give_info>
+				</phrase>
+				
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="lyoshik_task_2_1">
+		<has_info>quest_give_lyoshik_2</has_info>
+		<dont_has_info>quest_give_lyoshik_2_done</dont_has_info>
+		<phrase_list>
+				<phrase id="0">
+					<text>lyoshik_task_2_1_0</text>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>lyoshik_task_2_1_1</text>
+					<next>2</next>
+				</phrase>
+				<phrase id="2">
+					<text>lyoshik_task_2_1_2</text>
+					<next>3</next>
+				</phrase>
+				<phrase id="3">
+					<text>lyoshik_task_2_1_3</text>
+					<next>4</next>
+				</phrase>
+				<phrase id="4">
+					<text>lyoshik_task_2_1_4</text>
+					<next>5</next>
+				</phrase>
+				<phrase id="5">
+					<text>lyoshik_task_2_1_5</text>
+					<next>6</next>
+				</phrase>
+				<phrase id="6">
+					<text>lyoshik_task_2_1_6</text>
+					<next>7</next>
+				</phrase>
+				<phrase id="7">
+					<text>lyoshik_task_2_1_7</text>
+					<give_info>quest_give_lyoshik_2_done</give_info>
+					<action>dialogs_stories.give_task_lyoshik_2</action>
+				</phrase>
+								
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="lyoshik_task_2_1_done">
+		<has_info>quest_give_lyoshik_2_done</has_info>
+		<dont_has_info>quest_task_lyoshik_2_done</dont_has_info>
+		<precondition>dialogs_stories.is_has_courrier_pda_lyoshik</precondition>
+		<phrase_list>
+				<phrase id="0">
+					<text>lyoshik_task_2_2_0</text>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>lyoshik_task_2_2_1</text>
+					<next>2</next>
+				</phrase>
+				<phrase id="2">
+					<text>lyoshik_task_2_2_2</text>
+					<next>3</next>
+				</phrase>
+				<phrase id="3">
+					<text>lyoshik_task_2_2_3</text>
+					<next>4</next>
+				</phrase>
+				<phrase id="4">
+					<text>lyoshik_task_2_2_4</text>
+					<next>5</next>
+					<action>dialogs_stories.transfer_courrier_pda_to_lyoshik</action>
+				</phrase>
+				<phrase id="5">
+					<text>lyoshik_task_2_2_5</text>
+					<next>6</next>
+				</phrase>
+				<phrase id="6">
+					<text>lyoshik_task_2_2_6</text>
+					<next>7</next>
+				</phrase>
+				<phrase id="7">
+					<text>lyoshik_task_2_2_7</text>
+					<next>8</next>
+					<next>9</next>
+				</phrase>
+				<phrase id="8">
+					<text>lyoshik_task_2_2_8</text>
+					<next>10</next>
+				</phrase>
+				<phrase id="9">
+					<text>lyoshik_task_2_2_9</text>
+					<next>11</next>
+				</phrase>
+				<phrase id="10">
+					<text>lyoshik_task_2_2_10</text>
+					<next>12</next>
+				</phrase>
+				<phrase id="11">
+					<text>lyoshik_task_2_2_11</text>
+					<next>13</next>
+					<next>14</next>
+				</phrase>
+				<phrase id="12">
+					<text>lyoshik_task_2_2_12</text>
+					<next>16</next>
+				</phrase>
+				<phrase id="13">
+					<text>lyoshik_task_2_2_13</text>
+					<next>15</next>
+				</phrase>
+				<phrase id="14">
+					<text>lyoshik_task_2_2_14</text>
+					<action>dialogs_stories.poluchit_po_litsu</action>
+				</phrase>
+				<phrase id="15">
+					<text>lyoshik_task_2_2_15</text>
+					<give_info>quest_task_lyoshik_2_done</give_info>
+				</phrase>
+				<phrase id="16">
+					<text>lyoshik_task_2_2_16</text>
+					<give_info>quest_task_lyoshik_2_done</give_info>
 				</phrase>
 		</phrase_list>
 	</dialog>
-
+	
+	<dialog id="lyoshik_task_5">
+		<has_info>quest_task_lyoshik_2_done</has_info> --change to task 4 when done
+		<dont_has_info>quest_give_lyoshik_5_done</dont_has_info>
+		<phrase_list>
+				<phrase id="0">
+					<text>lyoshik_task_5_0</text>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>lyoshik_task_5_1</text>
+					<next>2</next>
+					<next>3</next>
+				</phrase>
+				<phrase id="2">
+					<text>lyoshik_task_5_2</text>
+					<next>5</next>
+				</phrase>
+				<phrase id="3">
+					<text>lyoshik_task_5_3</text>
+					<next>4</next>
+				</phrase>
+				<phrase id="4">
+					<text>lyoshik_task_5_4</text>
+					<next>5</next>
+				</phrase>
+				<phrase id="5">
+					<text>lyoshik_task_5_5</text>
+					<next>6</next>
+				</phrase>
+				<phrase id="6">
+					<text>lyoshik_task_5_6</text>
+					<next>7</next>
+				</phrase>
+				<phrase id="7">
+					<text>lyoshik_task_5_7</text>
+					<next>8</next>
+				</phrase>
+				<phrase id="8">
+					<text>lyoshik_task_5_8</text>
+					<next>9</next>
+				</phrase>
+				<phrase id="9">
+					<text>lyoshik_task_5_9</text>
+					<next>10</next>
+					<next>11</next>
+					<next>12</next>
+				</phrase>
+				<phrase id="10">
+					<dont_has_info>quest_give_lyoshik_5_danila</dont_has_info>
+					<text>lyoshik_task_5_10</text>
+					<next>13</next>
+				</phrase>
+				<phrase id="11">
+					<dont_has_info>quest_give_lyoshik_5_boris</dont_has_info>
+					<text>lyoshik_task_5_11</text>
+					<next>14</next>
+				</phrase>
+				<phrase id="12">
+					<dont_has_info>quest_give_lyoshik_5_sergey</dont_has_info>
+					<text>lyoshik_task_5_12</text>
+					<next>15</next>
+				</phrase>
+				<phrase id="13">
+					<text>lyoshik_task_5_13</text>
+					<next>11</next>
+					<next>12</next>
+					<next>16</next>
+					<action>dialogs_stories.give_task_lyoshik_5_danila</action>
+					<give_info>quest_give_lyoshik_5_danila</give_info>
+				</phrase>
+				<phrase id="14">
+					<text>lyoshik_task_5_14</text>
+					<next>10</next>
+					<next>12</next>
+					<next>16</next>
+					<action>dialogs_stories.give_task_lyoshik_5_boris</action>
+					<give_info>quest_give_lyoshik_5_boris</give_info>
+				</phrase>
+				<phrase id="15">
+					<text>lyoshik_task_5_15</text>
+					<next>10</next>
+					<next>11</next>
+					<next>16</next>
+					<action>dialogs_stories.give_task_lyoshik_5_sergey</action>
+					<give_info>quest_give_lyoshik_5_sergey</give_info>
+				</phrase>
+				<phrase id="16">
+					<has_info>quest_give_lyoshik_5_sergey</has_info>
+					<has_info>quest_give_lyoshik_5_boris</has_info>
+					<has_info>quest_give_lyoshik_5_danila</has_info>
+					<text>lyoshik_task_5_16</text>
+					<next>3</next>
+				</phrase>
+				<phrase id="17">
+					<text>lyoshik_task_5_17</text>
+					<give_info>quest_give_lyoshik_5_done</give_info>
+					
+				</phrase>
+								
+		</phrase_list>
+	</dialog>
+	
 </game_dialogs>

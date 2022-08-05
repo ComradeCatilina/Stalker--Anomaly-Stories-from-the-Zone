@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<!--	CoC 1.4.10 - DoctorX Questlines 1.6 -->
+<game_dialogs>
+
+<!-- Stories from the Zone -->
+	<dialog id="sergey_malatov_start">
+		<dont_has_info>sergey_malatov_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sergey_malatov_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<has_info>quest_give_lyoshik_5_sergey</has_info>
+				<text>sergey_malatov_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>sergey_malatov_start_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>sergey_malatov_start_3</text>
+				<give_info>sergey_malatov_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+</game_dialogs>

@@ -859,4 +859,16 @@
 	<string id="lyoshik_name">
 		<text>Lyoshik</text>
 	</string>
+	<string id="courrier_lyoshik_name">
+		<text>Courrier</text>
+	</string>
+	<string id="boris_blade_name">
+		<text>Boris the Blade</text>
+	</string>
+	<string id="sergey_malatov_name">
+		<text>Sergey Malatov</text>
+	</string>
+	<string id="danila_bagrov_name">
+		<text>Danila Bagrov</text>
+	</string>
 </string_table>
