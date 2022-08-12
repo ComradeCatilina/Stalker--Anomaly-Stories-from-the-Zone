@@ -150,18 +150,4 @@
 	<string id="mil_freedom_guid_go_12">
 		<text>I've changed my mind.</text>
 	</string>
-	
-<!-- Lyoshik (Drug Dealer) -->
-	<string id="lyoshik_start_0">
-		<text>What do you want?</text>
-	</string>
-	<string id="lyoshik_start_1">
-		<text>Dedushka Yegor sends me, he says you're the man to ask for drugs.</text>
-	</string>
-	<string id="lyoshik_start_2">
-		<text>Nothing.</text>
-	</string>
-	<string id="lyoshik_start_3">
-		<text>Ah yes, how is he doing?</text>
-	</string>
 </string_table>

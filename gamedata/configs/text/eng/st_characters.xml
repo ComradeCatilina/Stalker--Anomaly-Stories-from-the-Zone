@@ -859,4 +859,29 @@
 	<string id="lyoshik_name">
 		<text>Lyoshik</text>
 	</string>
+	<string id="courrier_lyoshik_name">
+		<text>Courrier</text>
+	</string>
+	<string id="boris_blade_name">
+		<text>Boris the Blade</text>
+	</string>
+	<string id="sergey_malatov_name">
+		<text>Sergey Malatov</text>
+	</string>
+	<string id="danila_bagrov_name">
+		<text>Danila Bagrov</text>
+	</string>
+	<string id="merlin_name">
+		<text>Merlin</text>
+	</string>
+	<string id="vybegallo_name">
+		<text>Amvrosiy Vybegallo</text>
+	</string>
+	<string id="roman_oiraoira_name">
+		<text>Roman Oira-Oira</text>
+	</string>
+	<string id="pechorin_name">
+		<text>Pechorin</text>
+	</string>
+	
 </string_table>

@@ -1822,12 +1822,5 @@
 		<class>yan_ghost</class>
 	</character>
 	
-	<!-- Yegor Letov -->	
-	<character id="yegor_letov">
-		<class>yegor_letov</class>
-	</character>
-	<character id="lyoshik">
-		<class>lyoshik</class>
-	</character>
 	
 </xml>

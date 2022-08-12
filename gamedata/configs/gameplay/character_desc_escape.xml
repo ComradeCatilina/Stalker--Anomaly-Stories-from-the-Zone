@@ -13,7 +13,7 @@
 		<terrain_sect>stalker_terrain</terrain_sect>
 		<visual>actors\stalker_trader\stalker_trader_1</visual>
 		<rank>18846</rank>
-		<reputation>2302</reputation>
+		<reputation>-2500</reputation>
 		<money min="1000000" max="1000000" infinitive="1"/>
 		<supplies>
 			[spawn] \n
@@ -46,8 +46,13 @@
 		<actor_dialog>buy_route</actor_dialog>
 		<actor_dialog>dm_bribe</actor_dialog>
 		<actor_dialog>drx_sl_change_faction_dialog</actor_dialog>		
-		<actor_dialog>actor_break_dialog</actor_dialog>
+		
 		<actor_dialog>devushka_3_quest</actor_dialog>
+		<!-- Stories/Lyoshik -->
+		<actor_dialog>sidorovich_comrades</actor_dialog>
+		
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
 <!-- Wolf (Loner Honcho at the Rookie Village) -->
@@ -319,19 +324,19 @@
 <!-- Yegor Letov (Loner Musician at the Rookie Village) -->
     <specific_character id="yegor_letov" team_default = "1">
 		<name>yegor_letov_name</name>
-		<icon>ui_inGame2_fanatic</icon>
+		<icon>ui_inGame2_neutral_2_old</icon>
 		<bio></bio>
 		<class>yegor_letov</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
 		<map_icon x="1" y="0"/>
 		<terrain_sect>stalker_terrain</terrain_sect>
-		<rank>12103</rank>
+		<rank>5103</rank>
 		<reputation>1725</reputation>
 		<money min="600" max="2000" infinitive="0"/>
 		<snd_config>characters_voice\human\stalker_1\</snd_config>
 		<crouch_type>-1</crouch_type>
 		<panic_treshold>0</panic_treshold>
-		<visual>actors\stalker_neutral\stalker_neytral_rukzak_3</visual>
+		<visual>actors\stalker_neutral\stalker_neutral_2_old</visual>
 		<supplies>
         [spawn] \n
         wpn_binoc \n
@@ -341,7 +346,7 @@
         ammo_5.45x39_fmj = 3 \n
 		</supplies>
 #include "gameplay\character_criticals.xml"
-		<!-- Traning -->
+		
 		<start_dialog>yegor_letov_start</start_dialog>
 		<actor_dialog>guitar_quest_bring</actor_dialog>
 		<actor_dialog>weed_quest_start</actor_dialog>

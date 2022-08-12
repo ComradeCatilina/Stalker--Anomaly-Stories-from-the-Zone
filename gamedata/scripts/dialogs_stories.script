@@ -1,0 +1,105 @@
+
+------- GENERAL Functions --------
+
+
+function poluchit_po_litsu(actor, npc)                                            
+    npc:force_set_goodwill(-5000, actor)
+end
+
+function give_task(name)
+	task_manager.get_task_manager():give_task(name)
+end
+
+-------Lyoshik Quests --------
+
+------Stick Up Quest [Lyoshik Quest 1] ------
+
+function give_task_lyoshik_1()
+	dialogs_stories.give_task('give_task_lyoshik_1')
+end
+
+function spawn_drug_package()
+     local pos = vector():set( -193.35643005371,-14.938454627991,379.76715087891 )
+     local se_obj = alife_create( "quest_package_1", pos, 125838, 2108 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_1" )
+     end
+end
+
+function is_has_drug_stash_lyoshik()
+  if db.actor:object("quest_package_1") then
+    return true
+  end
+  return false
+end
+
+function transfer_drug_stash_to_lyoshik(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "quest_package_1")
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "marijuana")
+end
+
+------Courrier Quest [Lyoshik Quest 2] ------
+
+function give_task_lyoshik_2()
+	dialogs_stories.give_task('give_task_lyoshik_2')
+end
+
+function is_has_courrier_pda_lyoshik()
+  if db.actor:object("broken_pda") then
+    return true
+  end
+  return false
+end
+
+function transfer_courrier_pda_to_lyoshik(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "broken_pda")
+end
+
+------Recruitment Quest [Lyoshik Quest 5] ------
+function give_task_lyoshik_5_danila()
+	dialogs_stories.give_task('give_task_lyoshik_5_danila')
+end
+
+function give_task_lyoshik_5_boris()
+	dialogs_stories.give_task('give_task_lyoshik_5_boris')
+end
+
+function give_task_lyoshik_5_sergey()
+	dialogs_stories.give_task('give_task_lyoshik_5_sergey')
+end
+
+function give_task_kill_hitsquad_sergey()
+	dialogs_stories.give_task('give_task_kill_hitsquad_sergey')
+end
+
+function reputation_test(actor, npc)
+	local repu = actor:character_reputation()
+	if (repu >= 2000) then
+    return true
+    else
+    return false
+   end
+end
+
+function faction_friend_test_sido(actor, npc, p)
+	xr_conditions.is_factions_friends(actor, npc, "stalker")
+end
+
+function comrades_pay_for_info(first_speaker, second_speaker) 
+ 	dialogs.relocate_money_from_actor(first_speaker, second_speaker, 10000)
+end
+function comrades_receive_for_info_1(first_speaker, second_speaker) 
+ 	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 15000)
+end
+function comrades_receive_for_info_2(first_speaker, second_speaker) 
+ 	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 20000)
+end
+
+function give_task_danila()
+	dialogs_stories.give_task('give_task_danila')
+end
+
+
+function give_task_kill_satisfied_man_1()
+	dialogs_stories.give_task('give_task_kill_satisfied_man_1')
+end

@@ -114,4 +114,7 @@
 	<info_portion id="quest_weed_give"></info_portion>
 	<info_portion id="quest_has_weed"></info_portion>
 	<info_portion id="quest_weed_done"></info_portion>
+	
+	<info_portion id="quest_meet_lyoshik_give"></info_portion>
+	<info_portion id="quest_meet_lyoshik_done"></info_portion>
 </game_information_portions>

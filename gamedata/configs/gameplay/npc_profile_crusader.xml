@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding="UTF-8"?>
+
+<xml>
+<!-- Stories from the Zone -->	
+	<character id="yegor_letov">
+		<class>yegor_letov</class>
+	</character>
+	
+	
+<!-- Lyoshik quests -->		
+	<character id="lyoshik">
+		<class>lyoshik</class>
+	</character>
+	<character id="courrier_lyoshik">
+		<class>courrier_lyoshik</class>
+	</character>
+	<character id="danila_bagrov">
+		<class>danila_bagrov</class>
+	</character>
+	<character id="boris_blade">
+		<class>boris_blade</class>
+	</character>
+	<character id="sergey_malatov">
+		<class>sergey_malatov</class>
+	</character>
+	<character id="viktor_bagrov">
+		<class>viktor_bagrov</class>
+	</character>
+<!-- Monday starts on Saturday -->			
+	
+	<character id="merlin">
+		<class>merlin</class>
+	</character>
+	<character id="vybegallo">
+		<class>vybegallo</class>
+	</character>
+	<character id="roman_oiraoira">
+		<class>roman_oiraoira</class>
+	</character>
+	
+<!-- A Hero of our Time/Duel -->			
+	<character id="pechorin">
+		<class>pechorin</class>
+	</character>
+</xml>

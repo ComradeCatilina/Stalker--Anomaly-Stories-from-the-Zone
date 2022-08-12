@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+-----Charon-----
+
+---Charon Task 1---
+	
+	<string id="charon_task_1_0">
+		<text>Father, I want to do more for the glory of Monolith.</text>
+	</string>
+	<string id="charon_task_1_1">
+		<text>My son, it's always good to hear such devotion to the cause. Indeed the enemies of Monolith are many, but the Monolith gives us strength. \n \nI need you to go to our brothers in the Red Forest and retrieve an important delivery. </text>
+	</string>
+	<string id="charon_task_1_2">
+		<text>For Monolith.</text>
+	</string>
+	<string id="charon_task_1_3">
+		<text>For Monolith.</text>
+	</string>
+	
+------Stories from the Zone------
+
+
+---Lyoshik---
+--Lyoshik task 2--
+-Sidorovich-
+	<string id="sidorovich_comrades_0">
+		<text>I'm looking for someone Sidorovich. Do you know something?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_1">
+		<text>Depends who you're looking for...</text>
+	</string>
+	
+	<string id="sidorovich_comrades_2">
+		<text>Danila Bagrov</text>
+	</string>
+	
+	<string id="sidorovich_comrades_3">
+		<text>Sergey Malatov</text>
+	</string>
+	
+	<string id="sidorovich_comrades_4">
+		<text>Boris the Blade</text>
+	</string>
+	
+	<string id="sidorovich_comrades_5">
+		<text>Danila? Didn't see him for a long time, didn't hear about him since then. His brother on the other hand is apparently in some deep shit. Something about a loan he wasn't able to pay back. Don't look at me like this, it has nothing to do with me.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_6">
+		<text>What is your business with Sergey?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_7">
+		<text>Boris the Bulletdodger? If you need a gun, why don't you come to me? Or is it for some different matter?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_8">
+		<text>[Truth] Lyoshik asked me to recruit him for a heist.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_9">
+		<text>[Lie] I want him to assist me with a job.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_10">
+		<text>[Goodwill] I need to talk to him, I'm not going to hurt him. Can you help me out?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_11">
+		<text>[Reputation] I need to talk to him, I'm not going to hurt him. Can you help me out?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_12">
+		<text>I don't know yet the details, but apparently it's going to be big.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_13">
+		<text>That's none of your concern. Do you know where Sergey is or not?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_14">
+		<text>Your avarice will be your demise one day, but I have no choice...</text>
+	</string>
+	
+	<string id="sidorovich_comrades_15">
+		<text>Maybe later.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_16">
+		<text>He is hiding at the moment in Darkscape, in the old farmstead. Some old associates of his put a price on his head, and he asked me to find him a safehouse until it blows over.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_17">
+		<text>I don't know the details yet, but apparently it's going to be big.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_18">
+		<text>I'm not looking for a gun, I need to talk to him.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_19">
+		<text>[Lie] I need a more custom gun, apparently Boris is the guy to ask. Do you know where to find him? </text>
+	</string>
+	
+	<string id="sidorovich_comrades_20">
+		<text>You need to talk to him, eh? Well, last I heard he was doing some business with Nimble, something about a special order for Clear Sky. Ask around there, maybe they know where he is.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_21">
+		<text>Well, last I heard he was doing some business with Nimble, something about a special order for Clear Sky. Ask around there, maybe they know where he is.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_22">
+		<text>Stalker, I'm not a moron. You come to me and ask for three among the most notorious gunslingers in the Zone. One might think you're up to something... something big. \n \nMaybe you want to cut Sidorovich into the business, eh? I can help you out. Or at least fill old Sidorovich in, into what will go down. I'll make it worth your while.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_23">
+		<text>Are you up to something Stalker? You come to me and ask where to find quality muscle and a gun dealer. One might think you're up to something... something big. \n \nMaybe you want to cut Sidorovich into the business, eh? I can help you out. Or at least fill old Sidorovich in, into what will go down. I'll make it worth your while.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_24">
+		<text>Lyoshik is recruiting for a heist. I don't know the details yet, but apparently it's going to be big.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_25">
+		<text>For 15'000 I'll tell you something you don't know.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_26">
+		<text>Fuck off Sidorovich, my business is my business.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_27">
+		<text>Is that so? Very interesting... Here have a small gift for this information. If you find out more, come to me. I'll make it worthwhile for you.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_28">
+		<text>Thanks for the info, that's all.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_29">
+		<text>Lyoshik? For a heist? What is he up to?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_30">
+		<text>I don't know where Sergey might be, but good luck finding him.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_31">
+		<text>I see. As you're a friend to us, I can tell you. He is hiding at the moment in Darkscape, in the old farmstead. Some old associates of his put a price on his head, and he asked me to find him a safehouse until it blows over.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_32">
+		<text>You seem to be trustworthy enough for me to tell you... for some cash. Is the information worth 10'000 to you?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_33">
+		<text>About Sergey.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_34">
+		<text>So now, do you know where Sergey is?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_35">
+		<text>Are you sure? Maybe these 20'000 might convince you otherwise...</text>
+	</string>
+	
+	<string id="sidorovich_comrades_36">
+		<text>Fuck off Sidorovich. Do you know where Sergey is or not?</text>
+	</string>
+	
+	<string id="sidorovich_comrades_37">
+		<text>Sure I always help out a friend of mine. He is hiding at the moment in Darkscape, in the old farmstead. Some old associates of his put a price on his head, and he asked me to find him a safehouse until it blows over.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_38">
+		<text>Deal. Now spill the beans.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_39">
+		<text>Is that so? Very interesting...If you find out more, come to me. I'll make it worthwhile for you.</text>
+	</string>
+	
+	<string id="sidorovich_comrades_40">
+		<text>Lyoshik is recruiting for a heist. I don't know the details yet, but apparently it's going to be big.</text>
+	</string>
+	
+	
+	
+---Sergey Malatov---
+<string id="sergey_malatov_start_0">
+		<text>What are you looking at?</text>
+	</string>
+	<string id="sergey_malatov_start_1">
+		<text>Lyoshik sends me. He plans something big and he wants you in.</text>
+	</string>
+	<string id="sergey_malatov_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="sergey_malatov_start_3">
+		<text>Ah Lyoshik, is that so? Sounds intruiging, but I'm not exactly free to go at the moment.</text>
+	</string>	
+	<string id="sergey_malatov_start_4">
+		<text>What is going on?</text>
+	</string>
+	<string id="sergey_malatov_start_5">
+		<text>You see, I'm hiding at the moment. I've some trouble with my old "employer"... I was doing time in the US and they thought they could use me here. So they made me a deal, I come here and be something like a spy for them. But fuck that, I'm not going to work for these assholes, and they caught wind. Now they hired a hit squad and they're awfully close. \n \nYou know what, if you could take care of this small problem for me, I'll be free to join you and Lyoshik for this job.</text>
+	</string>
+	<string id="sergey_malatov_start_6">
+		<text>Sure, you won't hear of them again.</text>
+	</string>
+	<string id="sergey_malatov_start_7">
+		<text>Then fuck off.</text>
+	</string>
+
+<string id="sergey_malatov_task_1_0">
+		<text>Your problem has been taken care of.</text>
+	</string>
+	<string id="sergey_malatov_task_1_1">
+		<text>Thanks Stalker, I appreciate it. So tell me about Lyoshik's plan, what is he up to?</text>
+	</string>
+	<string id="sergey_malatov_task_1_2">
+		<text>He's not ready yet to share more informations, he wants me to gather some muscle first.</text>
+	</string>
+	<string id="sergey_malatov_task_1_3">
+		<text>So that means that there will be more than the both of us?</text>
+	</string>	
+	<string id="sergey_malatov_task_1_4">
+		<text>Danila and Boris the Blade are also part of the job.</text>
+	</string>
+	<string id="sergey_malatov_task_1_5">
+		<text>Danila and Boris? Is that so? Well seems that old Lyoshik is cooking something large... Where do we meet?</text>
+	</string>
+	<string id="sergey_malatov_task_1_6">
+		<text>In the Army Warehouse.</text>
+	</string>
+	<string id="sergey_malatov_task_1_7">
+		<text>Alright, I'll find you there.</text>
+	</string>		
+	
+	
+	
+----Monday Starts on Saturday----
+--- Merlin ---
+<string id="merlin_start_0">
+		<text>What to you want?</text>
+	</string>
+	<string id="merlin_start_1">
+		<text>Who are you?</text>
+	</string>
+	<string id="merlin_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="merlin_start_3">
+		<text>I'm Merlin.</text>
+	</string>
+	
+---Vybegallo---
+<string id="vybegallo_start_0">
+		<text>What to you want?</text>
+	</string>
+	<string id="vybegallo_start_1">
+		<text>Who are you?</text>
+	</string>
+	<string id="vybegallo_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="vybegallo_start_3">
+		<text>I'm Vybegallo.</text>
+	</string>
+
+---Roman Oira Oira---
+<string id="roman_oiraoira_start_0">
+		<text>What to you want?</text>
+	</string>
+	<string id="roman_oiraoira_start_1">
+		<text>Who are you?</text>
+	</string>
+	<string id="roman_oiraoira_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="roman_oiraoira_start_3">
+		<text>I'm Roman Oira-Oira.</text>
+	</string>
+
+
+
+----A Hero of our Time----
+
+
+--- Pechorin ---
+
+<string id="pechorin_start_0">
+		<text>What to you want?</text>
+	</string>
+	<string id="pechorin_start_1">
+		<text>Who are you? </text>
+	</string>
+	<string id="pechorin_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="pechorin_start_3">
+		<text>I'm Pechorin.</text>
+	</string>
+
+
+
+
+	
+</string_table>

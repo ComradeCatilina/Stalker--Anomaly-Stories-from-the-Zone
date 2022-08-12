@@ -1,0 +1,11 @@
+[logic@pechorin]
+   suitable = {=check_npc_name(pechorin)} true
+   prior = 100
+   active = beh@pechorin_job
+
+[beh@pechorin_job]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:134.95355224609,-4.8254399299622,21.903621673584 look:133.96146154404,-4.8254399299622,21.872093323618
+	

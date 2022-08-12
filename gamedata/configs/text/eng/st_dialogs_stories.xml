@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+-----Lyoshik-----
+
+---Lyoshik Task 1---
+	
+	<string id="lyoshik_start_0">
+		<text>What do you want?</text>
+	</string>
+	<string id="lyoshik_start_1">
+		<text>Dedushka Yegor sends me, he says you're the man to ask for drugs.</text>
+	</string>
+	<string id="lyoshik_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="lyoshik_start_3">
+		<text>What the fuck? \n \nFirst, Yegor is an old friend, you I don't know! \n \nSecond, I'm not your fucking drug dealer, you don't come to me to harass me about some fucking drugs, and what I'm doing is my business and my business alone! \n \nSo I ask you one last time, how do you know Yegor and what the fuck do you want?</text>
+	</string>
+	<string id="lyoshik_start_4">
+		<text>I'm sorry Lyoshik, we got off on the wrong foot. I'm a friend of Yegor, I met him in the Rookie Village and helped him out. He wanted some weed and told me that you're the guy to ask.</text>
+	</string>
+	<string id="lyoshik_start_5">
+		<text>What the fuck is your problem asshole?</text>
+	</string>
+	<string id="lyoshik_start_6">
+		<text>I see. Old Yegor is a bit too trusting, I'd prefer if he kept his mouth shut about me. But as you're already here, there is nothing to be done about it. And no, I'm not exactly in the drug business, sometimes if I got my hands on some I shared it with Yegor but that's all.</text>
+	</string>
+	<string id="lyoshik_start_7">
+		<text>Alright. Sorry to bother you about it.</text>
+	</string>
+	<string id="lyoshik_start_8">
+		<text>Don't sweat it. \n \nBut on the other hand you seem to be of the capable kind... \n \nAre you interested in making some money?</text>
+	</string>
+	<string id="lyoshik_start_9">
+		<text>Sure, I can always use some extra cabbage.</text>
+	</string>
+	<string id="lyoshik_start_10">
+		<text>Nah Lyoshik, not today.</text>
+	</string>
+	<string id="lyoshik_start_11">
+		<text>Good. Word on the street is that the gopniks got a shipment of drugs. They are waiting near the Farmstead for their client. Do you care to lighten them of this burden?</text>
+	</string>
+	<string id="lyoshik_start_12">
+		<text>I thought you weren't in the drug business?</text>
+	</string>
+	<string id="lyoshik_start_13">
+		<text>Don't get cocky. I said I'm not in the dealing business, but that doesn't mean that I don't know how to make money. \n \nSo you in or not?</text>
+	</string>	
+	<string id="lyoshik_start_14">
+		<text>Yeah I'll do it.</text>
+	</string>
+	<string id="lyoshik_start_15">
+		<text>Nah Lyoshik, I'm not interested in stick-up jobs.</text>
+	</string>
+	<string id="lyoshik_start_16">
+		<text>Good. Pack some heavier heat, these guys ain't chumps. Come back with the stuff, and I'll make it worth your while.</text>
+	</string>
+	<string id="lyoshik_start_17">
+		<text>About the job you proposed, I'll do it. What shall I do?</text>
+	</string>
+	<string id="lyoshik_start_18">
+		<text>Who gave this information to you?</text>
+	</string>
+	<string id="lyoshik_start_19">
+		<text>Alright let's get this straight from the very beginning. My contacts are my contacts, it doesn't concern you, and you'd do well to keep your nose out of my business. I tell you what you need to do, that's all you need to know. \n \nSo you in or not?</text>
+	</string>
+
+	<string id="lyoshik_task_2_0">
+		<text>I got the package.</text>
+	</string>
+	<string id="lyoshik_task_2_1">
+		<text>Nice here is your green.</text>
+	</string>
+	<string id="lyoshik_task_2_2">
+		<text>What the fuck? Is this a fucking joke?</text>
+	</string>
+	<string id="lyoshik_task_2_3">
+		<text>Hahaha, relax I'm joking, here is your reward. \n \nHow was it? Did you enjoy your trip?</text>
+	</string>
+	<string id="lyoshik_task_2_4">
+		<text>You were not lying, they put on a fight.</text>
+	</string>
+	<string id="lyoshik_task_2_5">
+		<text>The Gods of the Zone were on my side.</text>
+	</string>
+	<string id="lyoshik_task_2_6">
+		<text>I live - they don't. I'm not complaining.</text>
+	</string>
+	<string id="lyoshik_task_2_7">
+		<text>I have to confess, I wasn't sure if you'd come back alive ... or if you'd run away with my package. Good, you seem of the trustworthy type, we will do some good business together.\n \nTalking of business, I got a job for you. Lick your wounds, spend your money or burry it if that's your jam. When you're ready, come back to me and we will discuss the problem.</text>
+	</string>
+	<string id="lyoshik_task_2_8">
+		<text>Ah, you're one of those... I don't judge.</text>
+	</string>
+	<string id="lyoshik_task_2_9">
+		<text>...</text>
+	</string>
+	<string id="lyoshik_task_2_10">
+		<text>Be it as it may, I have to confess, I wasn't sure if you'd come back alive ... or if you'd run away with my package. Good, you seem of the trustworthy type, we will make some good business together.\n \nTalking of business, I got a job for you. Lick your wounds, spend your money or burry it if that's your jam. When you're ready, come back to me and we will discuss the problem.</text>
+	</string>
+	
+---Lyoshik Task 2---
+	<string id="lyoshik_task_2_1_0">
+		<text>I'm ready for your task.</text>
+	</string>
+	<string id="lyoshik_task_2_1_1">
+		<text>Good to see yo're hungry for cash. \n \nI was expecting a courrier in my services, but he didn't show up. I don't know what happened to him; if he died, fell in a hole, fell in love or betrayed me. The important matter is that he carried sensible information. \n \nI want you to find him or his remains and recover the PDA. If he's still alive, find out what happened. If he betrayed me, give him the traitor's fate.</text>
+	</string>
+	<string id="lyoshik_task_2_1_2">
+		<text>I understand. Where should I look for him?</text>
+	</string>
+	<string id="lyoshik_task_2_1_3">
+		<text>He was supposed to come from the Dead City. But if I were you, I'd start with the Barkeeper, he has a keen eye, and if my courrier passed thourgh there the Barkeeper certainly knows.</text>
+	</string>
+	<string id="lyoshik_task_2_1_4">
+		<text>Alright, I'll hit the road then.</text>
+	</string>
+	<string id="lyoshik_task_2_1_5">
+		<text>I trust your capabilities, but be vigiliant. He is a though guy, so whatever got him isn't some random dog. And if he's still alive, well...</text>
+	</string>
+	<string id="lyoshik_task_2_1_6">
+		<text>I'll be carefull.</text>
+	</string>
+	<string id="lyoshik_task_2_1_7">
+		<text>Good luck.</text>
+	</string>
+	
+	<string id="lyoshik_task_2_bar_0">
+		<text>Did someone coming from the Dead City made it here?</text>
+	</string>
+	<string id="lyoshik_task_2_bar_1">
+		<text>From the Dead City? Not that I know of... </text>
+	</string>
+	<string id="lyoshik_task_2_bar_2">
+		<text>Any incidents in the vicinity?</text>
+	</string>
+	<string id="lyoshik_task_2_bar_3">
+		<text>Monolith was very active in the Red Forest these past couple of days, no Stalker would have dared traveling from there.</text>
+	</string>
+	<string id="lyoshik_task_2_bar_4">
+		<text>Any incidents in the vicinity?</text>
+	</string>
+	<string id="lyoshik_task_2_bar_5">
+		<text>Some Stalkers report that the mutants in the Wild Territories made some victims. Maybe your guy is among them?</text>
+	</string>
+	
+	
+	<string id="lyoshik_task_2_2_0">
+		<text>I found your courrier... or rather his remains.</text>
+	</string>
+	<string id="lyoshik_task_2_2_1">
+		<text>Save me the suspense, what happened?</text>
+	</string>
+	<string id="lyoshik_task_2_2_2">
+		<text>He found his demise in the Wild Territories near the Crispy Train Anomaly. I believe some Snorks and Bloodsuckers got him.</text>
+	</string>
+	<string id="lyoshik_task_2_2_3">
+		<text>Fuck, what a shitty end. Did you at least find the PDA he was carrying?</text>
+	</string>
+	<string id="lyoshik_task_2_2_4">
+		<text>I did but I doubt it will be useful to you, the thing broke in two. Smashed by a Snork it seems.</text>
+	</string>
+	<string id="lyoshik_task_2_2_5">
+		<text>Fucking mutants... \n \nThis shit is broken, but the information inside might still be retrievable...</text>
+	</string>
+	<string id="lyoshik_task_2_2_6">
+		<text>Your guy was a Merc, did you know that? Ran around in a Stalker outfit.</text>
+	</string>
+	<string id="lyoshik_task_2_2_7">
+		<text>And?</text>
+	</string>
+	<string id="lyoshik_task_2_2_8">
+		<text>Thought you weren't aware... You got some far reaching connections Lyoshik...</text>
+	</string>
+	<string id="lyoshik_task_2_2_9">
+		<text>What the fuck Lyoshik, you're working with Mercs? Are you working with Monolith too?</text>
+	</string>
+	<string id="lyoshik_task_2_2_10">
+		<text>I made it my business to have connections. Beside, don't always judge by the colour of their patch, some of the greatest assholes here are to be found among the Loners. But even I, the Great Pragmatist, don't deal with Monolith, so rest assured.</text>
+	</string>
+	<string id="lyoshik_task_2_2_11">
+		<text>*Pulls gun* \n \nWasn't I clear last time? My business is my business, and it doesn't concern you! So fuck off!</text>
+	</string>
+	<string id="lyoshik_task_2_2_12">
+		<text>Yeah true enough. Still, I hate Mercs.</text>
+	</string>
+	<string id="lyoshik_task_2_2_13">
+		<text>Chill Loyshik, I was only surprised. Can't stand the bunch, that's all.</text>
+	</string>
+	<string id="lyoshik_task_2_2_14">
+		<text>Fuck you Lyoshik, people like you are the cancer in the Zone.</text>
+	</string>
+	<string id="lyoshik_task_2_2_15">
+		<text>Good, so we have an understanding *holsters gun* \n \nEnough of this, I'm sure that you want some compensation for having to touch a Merc. Come back when you cooled off.</text>
+	</string>
+	<string id="lyoshik_task_2_2_16">
+		<text>And I don't need you to like them. Quite on the contrary, it will make things easier in the future *giggles* \n \nBut enough of this, I'm sure that you want some compensation. Here, enjoy. Come back if you want some more.</text>
+	</string>
+
+---Lyoshik Task 5 The Heist: Recruit---
+
+<string id="lyoshik_task_5_0">
+		<text>Yo Lyoshik, tell me about your big plan.</text>
+	</string>
+	<string id="lyoshik_task_5_1">
+		<text>I'm planning this gig for a very long time, one of the greatest heists of the history of the Zone! Even more legendary than the Great Underground Robbery by Monomakh.</text>
+	</string>
+	<string id="lyoshik_task_5_2">
+		<text>What or whom do we hit?</text>
+	</string>
+	<string id="lyoshik_task_5_3">
+		<text>The Great Underground Robbery? Monomakh? What are you talking about?</text>
+	</string>
+	<string id="lyoshik_task_5_4">
+		<text>You never heard the story? Although, it was quite a long time ago... </text>
+	</string>
+	<string id="lyoshik_task_5_5">
+		<text>It's too early to fill you in in all the details, as we have to prepare first. This matter requires the greatest secrecy, if someone else gets wind of it, we're fucked. I'll tell you the details when the time comes, be patient cossack and you will be an ataman.</text>
+	</string>
+	<string id="lyoshik_task_5_6">
+		<text>Damn Lyoshik, you're getting on my nerves with all this secrecy. What is the first step in your preparations?</text>
+	</string>
+	<string id="lyoshik_task_5_7">
+		<text>The first step will be to recruit some more people. Don't look at me that way, these are people I know and trust, some heavy calibers not your local moron. I need you to find and convince Danila, Boris and Sergey. We will meet here and we'll discuss the second stage.</text>
+	</string>
+	<string id="lyoshik_task_5_8">
+		<text>Where can I find them?</text>
+	</string>
+	<string id="lyoshik_task_5_9">
+		<text>That's the catch, they're quite elusive characters. I tried to keep my ear to the ground, buy the information is still flimsy. \n \n</text>
+	</string>
+	<string id="lyoshik_task_5_10">
+		<text>Tell me about Danila.</text>
+	</string>
+	<string id="lyoshik_task_5_11">
+		<text>Tell me about Boris.</text>
+	</string>
+	<string id="lyoshik_task_5_12">
+		<text>Tell me about Sergey.</text>
+	</string>
+	<string id="lyoshik_task_5_13">
+		<text>Danila is quite the killer. Veteran from Chechnya, did some high profile hits in St Petersbourg, Moscow and from what I heard America too. \n \nLast I heard he slipped through the Red Forest a couple of weeks ago. Look for him somewhere in the north, Jupiter or maybe Zaton. </text>
+	</string>
+	<string id="lyoshik_task_5_14">
+		<text>Boris the Blade, or also known as Bulletdodger Boris. The guy is apparently immortal, although I wouldn't advise to find out. Apparently ex-KGB. Worked for some time in London, but came here a couple of years ago. Was active in the weapon smuggling business. \n \nI don't know where he is at the moment, but ask around weapon traders, they might have heard of their colleague.</text>
+	</string>
+	<string id="lyoshik_task_5_15">
+		<text>Sergey is quite the allrounder. Smuggling, muscle, everything. Did some prison in the US too. \n \nI don't know much about his whereabouts, you'll have to ask around.</text>
+	</string>
+	<string id="lyoshik_task_5_16">
+		<text>I'll look for them.</text>
+	</string>
+	<string id="lyoshik_task_5_17">
+		<text>Do that, I'll prepare the next stage in the meantime.</text>
+	</string>
+	
+	<string id="boris_blade_start_0">
+		<text>What are you looking at?</text>
+	</string>
+	<string id="boris_blade_start_1">
+		<text>Lyoshik sends me. He plans something big and he wants you in.</text>
+	</string>
+	<string id="boris_blade_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="boris_blade_start_3">
+		<text>Ah Lyoshik is that so? Tell him no.</text>
+	</string>
+	
+	
+	
+	<string id="danila_bagrov_start_0">
+		<text>What are you looking at?</text>
+	</string>
+	<string id="danila_bagrov_start_1">
+		<text>Lyoshik sends me. He plans something big and he wants you in.</text>
+	</string>
+	<string id="danila_bagrov_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="danila_bagrov_start_3">
+		<text>Ah Lyoshik is that so? Tell him no.</text>
+	</string>
+	
+</string_table>

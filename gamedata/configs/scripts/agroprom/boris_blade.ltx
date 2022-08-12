@@ -1,0 +1,11 @@
+[logic@boris_blade]
+   suitable = {=check_npc_name(boris_blade)} true
+   prior = 100
+   active = beh@boris_blade_job
+
+[beh@boris_blade_job]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:-7.3556547164917,7.4990038871765,4.1580362319946 look:-6.3599309921265,7.4990038871765,4.2261943146586
+	

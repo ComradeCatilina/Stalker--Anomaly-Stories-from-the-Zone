@@ -827,29 +827,3 @@ descr = go_to_loki_descr
 target = {=actor_has_item(medkit_ai3) =actor_has_item(medkit_ai3)} jup_a6_freedom_leader
 condlist_0 = {+devushka_help_done} complete, {+devushka_death} fail
 on_complete = %=reward_item(svoboda_heavy_outfit) =inc_faction_goodwill_to_actor(freedom:50)%
-
-;------------------------------------------------------------------------------------------
-; Yegor QUESTLINES
-;------------------------------------------------------------------------------------------
-
-
-[quest_guitar_give]
-icon = ui_icons_cordon22
-prior = 2
-storyline = false
-title = {=actor_has_item(guitar_a) =actor_has_item(guitar_a)} guitar_yegor_letov_bring_name, guitar_yegor_letov_find_name
-descr = guitar_yegor_letov_descr
-target = {=actor_has_item(guitar_a) =actor_has_item(guitar_a)} yegor_letov
-condlist_0 = {+quest_guitar_done} complete
-on_complete = %=reward_item(joint) =inc_faction_goodwill_to_actor(stalker:25)%
-
-[quest_weed_give]
-icon = ui_icons_cordon22
-prior = 2
-storyline = false
-title = {=actor_has_item(marijuana) =actor_has_item(marijuana)} weed_yegor_letov_bring_name, weed_yegor_letov_find_name
-descr = weed_yegor_letov_descr
-target = {=actor_has_item(marijuana) =actor_has_item(marijuana)} yegor_letov
-condlist_0 = {+quest_weed_done} complete
-on_complete = %=reward_item(joint) =inc_faction_goodwill_to_actor(stalker:25)%
-

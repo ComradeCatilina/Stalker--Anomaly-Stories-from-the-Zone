@@ -1833,10 +1833,10 @@
     <dialog id="yegor_letov_start">
 		<dont_has_info>yegor_letov_start_done</dont_has_info>
 		<precondition>dialogs.actor_stalker</precondition>
-		<precondition>dialogs.is_actor_noob</precondition>
 		<phrase_list>
 			<phrase id="0">
 				<text>yegor_letov_start_0</text>
+				
 				<next>1</next>
 				<next>2</next>
 			</phrase>
@@ -1876,7 +1876,6 @@
 		<dont_has_info>weed_quest_start_done</dont_has_info>
 		<has_info>quest_guitar_done</has_info>
 		<precondition>dialogs.actor_stalker</precondition>
-		<precondition>dialogs.is_actor_noob</precondition>
 		<phrase_list>
 			<phrase id="0">
 				<text>yegor_letov_weed_0</text>
@@ -1910,7 +1909,6 @@
 				</phrase>
 				<phrase id="1">
 					<text>yegor_letov_weed_quest_1</text>
-					<give_info>quest_weed_done</give_info>
 					<next>2</next>
 				</phrase>
 				<phrase id="2">
@@ -1919,6 +1917,8 @@
 				</phrase>
 				<phrase id="3">
 					<text>yegor_letov_weed_quest_3</text>
+					<action>dialogs_escape.give_meet_lyoshik_quest</action>
+					<give_info>quest_weed_done</give_info>
 				</phrase>
 		</phrase_list>
 	</dialog>
