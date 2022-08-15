@@ -43,13 +43,33 @@
 	<string id="give_task_lyoshik_5_boris_descr">
 		<text>Lyoshik wants me to find and recruit Boris. I should ask among weapon traders if they have seen him.</text>
 	</string>
+	<string id="give_task_lyoshik_5_boris_descr_1">
+		<text>Lyoshik wants me to find and recruit Boris. Maybe I should ask Nimble or someone in the Clear Sky base for his location.</text>
+	</string>
+	<string id="give_task_lyoshik_5_boris_descr_2">
+		<text>Lyoshik wants me to find and recruit Boris. He should be in Agroprom.</text>
+	</string>
 	<string id="give_task_lyoshik_5_sergey_title">
-		<text>Find an recruit Sergey</text>
+		<text>Find and recruit Sergey</text>
 	</string>
 	<string id="give_task_lyoshik_5_sergey_descr">
 		<text>Lyoshik wants me to find and recruit Sergey. I have to ask around if someone has seen him.</text>
 	</string>
+	<string id="give_task_kill_hitsquad_sergey_title">
+		<text>Find and kill the hit squad looking for Sergey</text>
+	</string>
+	<string id="give_task_kill_hitsquad_sergey_1_descr">
+		<text>Sergey needs me to take care off a hit squad. They should be in Darkvalley, near the old pigfarm.</text>
+	</string>
+	<string id="give_task_kill_hitsquad_sergey_2_descr">
+		<text>Sergey's problem has been taken care off. I should tell him that he can come out of hiding now.</text>
+	</string>
 	
-	
+	<string id="give_task_kill_satisfied_man_1_name">
+		<text>Kill the fully satisfied man</text>
+	</string>
+	<string id="give_task_kill_satisfied_man_1_descr">
+		<text>Kill it</text>
+	</string>
 	
 </string_table>

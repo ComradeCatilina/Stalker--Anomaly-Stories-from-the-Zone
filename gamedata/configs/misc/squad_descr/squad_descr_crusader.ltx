@@ -1,0 +1,75 @@
+;--------------------------
+;-- Special Characters
+;--------------------------
+[mil_smart_terrain_2_4_bandit_guards]:online_offline_group
+faction = bandit
+npc_random = sim_default_bandit_1, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_4
+npc_in_squad = 9, 9
+target_smart = mil_smart_terrain_2_4
+
+[lyoshik_courrier_dead]:online_offline_group
+faction = stalker
+npc = courrier_lyoshik
+npc_in_squad = 1, 1
+target_smart = ros_smart_monster4
+
+[boris_blade_squad]:online_offline_group
+faction = stalker
+npc = boris_blade
+npc_in_squad = 1, 1
+target_smart = agr_smart_terrain_4_4
+
+[sergey_malatov_squad]:online_offline_group
+faction = stalker
+npc = sergey_malatov
+npc_in_squad = 1, 1
+target_smart = ds2_domik_st
+
+[danila_bagrov_squad]:online_offline_group
+faction = stalker
+npc = danila_bagrov
+npc_in_squad = 1, 1
+target_smart = jup_a6
+
+[pechorin_squad]:online_offline_group
+faction = dolg
+npc = pechorin
+npc_in_squad = 1, 1
+target_smart = bar_visitors
+
+[merlin_squad]:online_offline_group
+faction = ecolog
+npc = merlin
+npc_in_squad = 1, 1
+target_smart = agr_smart_terrain_4_4
+
+[vybegallo_squad]:online_offline_group
+faction = ecolog
+npc = vybegallo
+npc_in_squad = 1, 1
+target_smart = agr_smart_terrain_4_4
+
+[roman_oiraoira_squad]:online_offline_group
+faction = ecolog
+npc = roman_oiraira
+npc_in_squad = 1, 1
+target_smart = agr_smart_terrain_4_4
+
+[satisfied_man]:online_offline_group
+faction         = monster_special
+npc      = gigant_weak
+npc_in_squad    = 1, 1
+on_death = %+satisfied_man_dead%
+
+[hostage_bandit_guards]:online_offline_group
+faction = bandit
+npc_random = sim_default_bandit_1, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_4
+npc_in_squad = 5, 5
+target_smart = mil_smart_terrain_2_4
+
+[sergey_malatov_hitsquad]:online_offline_group
+faction = killer
+npc_random = sim_default_killer_2, sim_default_killer_3, sim_default_killer_4, sim_default_killer_4
+npc_in_squad = 5, 5
+target_smart = val_smart_terrain_4_0
+on_death = %+sergey_malatov_hitsquad_dead%

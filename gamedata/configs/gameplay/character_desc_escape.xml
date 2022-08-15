@@ -46,8 +46,13 @@
 		<actor_dialog>buy_route</actor_dialog>
 		<actor_dialog>dm_bribe</actor_dialog>
 		<actor_dialog>drx_sl_change_faction_dialog</actor_dialog>		
-		<actor_dialog>actor_break_dialog</actor_dialog>
+		
 		<actor_dialog>devushka_3_quest</actor_dialog>
+		<!-- Stories/Lyoshik -->
+		<actor_dialog>sidorovich_comrades</actor_dialog>
+		
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
 <!-- Wolf (Loner Honcho at the Rookie Village) -->

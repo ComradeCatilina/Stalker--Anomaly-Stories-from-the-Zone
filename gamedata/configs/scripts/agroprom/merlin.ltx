@@ -1,0 +1,11 @@
+[logic@merlin]
+   suitable = {=check_npc_name(merlin)} true
+   prior = 100
+   active = beh@merlin_job
+
+[beh@merlin_job]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:-0.11248485743999,2.4980700016022,14.655294418335 look:-1.1117209047079,2.4980700016022,14.652922988171
+	

@@ -6176,4 +6176,23 @@ function spawn_courrier_dead()
           printe("!ERROR: unable to spawn courrier of lyoshik" )
     end
 end
+
+function spawn_thief_boris_dead()
+    local pos = vector():set( 11.598339080811,-8.2182273864746,49.403930664063 )
+    local se_obj = alife_create( "thief_boris", pos, 1486, 3620 )
+	if (se_obj) then
+		se_obj:kill()
+	end
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn courrier of lyoshik" )
+    end
+end
+
+function spawn_satisfied_man()
+    local pos = vector():set( -6.4020962715149,7.4989976882935,17.328145980835 )
+    local se_obj = alife_create( "satisfied_man", pos, 193023, 1026 )
 	
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn satisfied man" )
+    end
+end	

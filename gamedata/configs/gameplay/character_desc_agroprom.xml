@@ -246,7 +246,6 @@
 		
 		<start_dialog>boris_blade_start</start_dialog>
 		<actor_dialog>boris_blade_quest_done</actor_dialog>
-		<actor_dialog>boris_blade_about</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 

@@ -36,12 +36,16 @@
         <!--actor_dialog>information_about_stash_barmen1</actor_dialog-->	
 		<!---------- mlr ----------->		
         <actor_dialog>dm_broker_dialog</actor_dialog>
-        <actor_dialog>actor_break_dialog</actor_dialog>
+        
         <!----------g0dl1ke--------->
 		<actor_dialog>devushka_4_help</actor_dialog>
 		<actor_dialog>devushka_help</actor_dialog>
-		<!----------SFTZ--------->
+		<!----------SFTZ/Lyoshik--------->
 		<actor_dialog>lyoshik_task_2_bar</actor_dialog>
+		<actor_dialog>barman_comrades</actor_dialog>
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
+		
 	</specific_character>
 
 		

@@ -1,0 +1,177 @@
+﻿<?xml version='1.0' encoding="windows-1251"?>
+
+<xml>
+
+ <specific_character id="viktor_bagrov" team_default = "1">
+		<name>viktor_bagrov_name</name>
+		<icon>ui_inGame2_neutral_2</icon>
+		<bio></bio>
+		<class>viktor_bagrov</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<map_icon x="1" y="0"/>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>5000</rank>
+		<reputation>0</reputation>
+		<money min="300" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human\stalker_1\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\stalker_neutral\stalker_neutral_9d</visual>
+		<supplies>
+        [spawn] \n
+       
+        wpn_cz75 \n
+        ammo_9x18_ap = 3 \n
+        wpn_bm16_alt \n
+        ammo_12x70_buck = 4 \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		
+		<start_dialog>danila_bagrov_start</start_dialog>
+		<actor_dialog>danila_bagrov_quest_done</actor_dialog>
+		<actor_dialog>danila_bagrov_about</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>	
+	
+	<specific_character id="thief_boris" team_default="1">
+		<name>thief_boris_name</name>
+		<icon>ui_inGame2_neutral_1w_mask</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio></bio>
+		
+		<class>thief_boris</class>
+		<community>stalker</community> 
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<snd_config>characters_voice\human\stalker_1\</snd_config><!--2-->
+		
+		<rank>3200</rank>
+		<money min="200" max="300" infinitive="1"/>
+		<reputation>-500</reputation>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\stalker_neutral\stalker_neutral1b_mask</visual>
+		<supplies>
+
+		[spawn] \n
+		wpn_ak74 \n
+        ammo_5.45x39_fmj \n
+		wpn_svd_nimble \n
+		
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		
+	</specific_character>
+
+
+<!-- Monday starts on Saturday -->	
+
+<specific_character id="merlin" team_default = "1">
+		<name>merlin_name</name>
+		<icon>ui_inGame2_ecolog_orange</icon>
+		<map_icon x="0" y="6"></map_icon>
+		<bio></bio>
+		<class>merlin</class>
+		<community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>20</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_ecologist\stalker_ecolog</visual>
+		<snd_config>characters_voice\human\ecolog_3\</snd_config>
+		<crouch_type>1</crouch_type>
+		<supplies>
+        [spawn] \n
+        wpn_protecta \n
+        ammo_12x76_zhekan = 2 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+        detector_simple \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		<start_dialog>merlin_start_dialog</start_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+<specific_character id="vybegallo" team_default = "1">
+		<name>vybegallo_name</name>
+		<icon>ui_inGame2_ecolog_orange</icon>
+		<map_icon x="0" y="6"></map_icon>
+		<bio></bio>
+		<class>vybegallo</class>
+		<community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>20</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_ecologist\stalker_ecolog</visual>
+		<snd_config>characters_voice\human\ecolog_3\</snd_config>
+		<crouch_type>1</crouch_type>
+		<supplies>
+        [spawn] \n
+        wpn_protecta \n
+        ammo_12x76_zhekan = 2 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+        detector_simple \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		<start_dialog>vybegallo_start_dialog</start_dialog>
+		<actor_dialog>killed_satisfied_man</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+<specific_character id="roman_oiraoira" team_default = "1">
+		<name>roman_oiraoira_name</name>
+		<icon>ui_inGame2_ecolog_orange</icon>
+		<map_icon x="0" y="6"></map_icon>
+		<bio></bio>
+		<class>roman_oiraoira</class>
+		<community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>20</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_ecologist\stalker_ecolog</visual>
+		<snd_config>characters_voice\human\ecolog_3\</snd_config>
+		<crouch_type>1</crouch_type>
+		<supplies>
+        [spawn] \n
+        wpn_protecta \n
+        ammo_12x76_zhekan = 2 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+        detector_simple \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		<start_dialog>roman_oiraoira_start_dialog</start_dialog>
+		<actor_dialog>killed_satisfied_man</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+
+<!-- A Hero of our Time/Duel -->
+
+<specific_character id="pechorin" team_default = "1">
+		<name>pechorin_name</name>
+		<icon>ui_inGame2_ecolog_orange</icon>
+		<map_icon x="0" y="6"></map_icon>
+		<bio></bio>
+		<class>pechorin</class>
+		<community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>10000</rank>
+		<reputation>-500</reputation>
+		<visual>actors\stalker_ecologist\stalker_ecolog</visual>
+		<snd_config>characters_voice\human\ecolog_3\</snd_config>
+		<crouch_type>1</crouch_type>
+		<supplies>
+        [spawn] \n
+        wpn_protecta \n
+        ammo_12x76_zhekan = 2 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+        detector_simple \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		<start_dialog>pechorin_start_dialog</start_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+
+
+
+
+</xml>
