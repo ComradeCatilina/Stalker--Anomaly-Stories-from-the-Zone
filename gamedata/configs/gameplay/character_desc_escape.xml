@@ -50,6 +50,9 @@
 		<actor_dialog>devushka_3_quest</actor_dialog>
 		<!-- Stories/Lyoshik -->
 		<actor_dialog>sidorovich_comrades</actor_dialog>
+		<actor_dialog>sidorovich_tuna_bag</actor_dialog>
+		<actor_dialog>sido_reward_tuna</actor_dialog>		
+		<actor_dialog>sidorovich_fake_artifact</actor_dialog>
 		
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>

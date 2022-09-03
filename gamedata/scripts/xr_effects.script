@@ -6177,6 +6177,66 @@ function spawn_courrier_dead()
     end
 end
 
+function spawn_thief_boris_dead()
+    local pos = vector():set( 11.598339080811,-8.2182273864746,49.403930664063 )
+    local se_obj = alife_create( "thief_boris", pos, 1486, 3620 )
+	if (se_obj) then
+		se_obj:kill()
+	end
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn thief of boris" )
+    end
+end
+
+function spawn_translator_carrier()
+    local pos = vector():set( 114.78558349609,16.094167709351,-149.84567260742 )
+    local se_obj = alife_create( "carrier_translator", pos, 207467, 9 )
+	
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn carrier of translator" )
+    end
+end
+
+function spawn_tuna_bag()
+     local pos = vector():set( 107.21215820313,0.0022052824497223,-119.57810211182 )
+     local se_obj = alife_create( "quest_package_vybegallo", pos, 257139, 844 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_vybegallo" )
+     end
+end
+
+function spawn_tuna_trail_1()
+     local pos = vector():set( 95.445129394531,0.08858448266983,-120.24690246582 )
+     local se_obj = alife_create( "conserva", pos, 247969, 844 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn conserva" )
+     end
+end
+
+function spawn_tuna_trail_2()
+     local pos = vector():set( 81.531120300293,0.12580627202988,-116.03826904297 )
+     local se_obj = alife_create( "conserva", pos, 236870, 668 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn conserva" )
+     end
+end
+
+function spawn_tuna_trail_3()
+     local pos = vector():set( 71.885971069336,0.30848354101181,-121.2780380249 )
+     local se_obj = alife_create( "conserva", pos, 229183, 651 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn conserva" )
+     end
+end
+
+function spawn_tuna_trail_4()
+     local pos = vector():set( 58.583038330078,0.39690065383911,-126.0803604126 )
+     local se_obj = alife_create( "conserva", pos, 218196, 737 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn conserva" )
+     end
+end
+
 function spawn_satisfied_man()
     local pos = vector():set( -6.4020962715149,7.4989976882935,17.328145980835 )
     local se_obj = alife_create( "satisfied_man", pos, 193023, 1026 )

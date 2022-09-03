@@ -106,11 +106,11 @@
 	</string>
 	
 	<string id="sidorovich_comrades_20">
-		<text>You need to talk to him, eh? Well, last I heard he was doing some business with Nimble, something about a special order for Clear Sky. Ask around there, maybe they know where he is.</text>
+		<text>You need to talk to him, eh? Well, last I heard he was doing some business with Nimble. Ask him, maybe he knows.</text>
 	</string>
 	
 	<string id="sidorovich_comrades_21">
-		<text>Well, last I heard he was doing some business with Nimble, something about a special order for Clear Sky. Ask around there, maybe they know where he is.</text>
+		<text>Well, last I heard he was doing some business with Nimble. Ask him, maybe he knows.</text>
 	</string>
 	
 	<string id="sidorovich_comrades_22">
@@ -189,7 +189,81 @@
 		<text>Lyoshik is recruiting for a heist. I don't know the details yet, but apparently it's going to be big.</text>
 	</string>
 	
+<string id="barman_comrades_0">
+		<text>I'm looking for some people. Can you help me? [give 1000 rubles]</text>
+	</string>
+	<string id="barman_comrades_1">
+		<text>Depends on who you're looking for.</text>
+	</string>
+	<string id="barman_comrades_2">
+		<text>Sergey Malatov</text>
+	</string>
+	<string id="barman_comrades_3">
+		<text>Danila Bagrov</text>
+	</string>
+	<string id="barman_comrades_4">
+		<text>Boris the Blade</text>
+	</string>
+	<string id="barman_comrades_5">
+		<text>Sergey? Didn't see him for a long time. Heard he was laying low at the moment...</text>
+	</string>
+	<string id="barman_comrades_6">
+		<text>Ah yes Danila. Came through here a week ago or so. Seems to have run into some trouble... was asking where to buy an affordable shotgun. I send him to Butcher over in Garbage.</text>
+	</string>
+	<string id="barman_comrades_7">
+		<text>I don't know where you could find Boris at the moment, but I know who should know more. As far as I know, he's working with Nimble at the moment, he should know more.</text>
+	</string>	
+	<string id="barman_comrades_8">
+		<text>Thanks, that's all.</text>
+	</string>
+	<string id="barman_comrades_9">
+		<text>Thanks, that's all.</text>
+	</string>
+	<string id="barman_comrades_10">
+		<text>Always a pleasure.</text>
+	</string>
+	<string id="barman_comrades_11">
+		<text>You're looking for a special bunch of people there... be careful with whom you're talking about your persons of interest, it might rise some unwanted attention.</text>
+	</string>
 	
+--- Butcher ---	
+
+<string id="hunter_comrades_0">
+		<text>I'm looking for someone. Can you help me? </text>
+	</string>
+	<string id="hunter_comrades_2">
+		<text>Depends on who you're looking for.</text>
+	</string>
+	<string id="hunter_comrades_3">
+		<text>Sergey Malatov</text>
+	</string>
+	<string id="hunter_comrades_4">
+		<text>Danila Bagrov</text>
+	</string>
+	<string id="hunter_comrades_5">
+		<text>Boris the Blade</text>
+	</string>
+	<string id="hunter_comrades_6">
+		<text>Sergey Malatov? Never heard of him.</text>
+	</string>
+	<string id="hunter_comrades_7">
+		<text>Yeah sure, he came here a couple of days ago. He wanted a shotgun to hunt some bandits, something about his brother being hostage.</text>
+	</string>
+	<string id="hunter_comrades_8">
+		<text>Boris didn't come through here for some while...</text>
+	</string>	
+	<string id="hunter_comrades_9">
+		<text>Thanks, that's all.</text>
+	</string>
+	<string id="hunter_comrades_10">
+		<text>Of course, glad to help.</text>
+	</string>
+	<string id="hunter_comrades_11">
+		<text>Do you know where he went?</text>
+	</string>
+	<string id="hunter_comrades_12">
+		<text>He said that he was going to Jupiter, you should be able to find him in the train station.</text>
+	</string>
 	
 ---Sergey Malatov---
 <string id="sergey_malatov_start_0">
@@ -261,39 +335,342 @@
 	
 ---Vybegallo---
 <string id="vybegallo_start_0">
-		<text>What to you want?</text>
+		<text>What to you want? I'm busy!</text>
 	</string>
 	<string id="vybegallo_start_1">
-		<text>Who are you?</text>
+		<text>Greetings Vybegallo. Roman Oira-Oira charged me to find the universal translator.</text>
 	</string>
 	<string id="vybegallo_start_2">
 		<text>Nothing.</text>
 	</string>
 	<string id="vybegallo_start_3">
-		<text>I'm Vybegallo.</text>
+		<text>Then might I ask you to not stand in the way of science?</text>
+	</string>
+	<string id="vybegallo_start_4">
+		<text>Comrade Oira-Oira and his universal translator! Who cares about this old museum piece? L'important, mon chere, is scientific progress, n'est-ce pas? If you ask me, this sleeping bag contributed more to science by being traded for food, than being an universal translator! \n \nYou might not have some tuna cans, par hasard?</text>
+	</string>
+	<string id="vybegallo_start_5">
+		<text>I heard about your research, Professor Vybegallo, and I have to admit that I'm a huge fan! I'd like to help you, but first I have to find this univeral translator, n'est-ce pas?</text>
+	</string>
+	<string id="vybegallo_start_6">
+		<text>Stop blubbering about your experiment Vybegallo, and tell me whom you gave the univeral translator away?</text>
+	</string>
+	<string id="vybegallo_start_7">
+		<text>Oh un connaisseur? I see, that Oira-Oira got you tangled up in his ordinary bureaucracy... well forget about him and his reactionnary preoccupations comrade, and dedicate your labour to more important means! My Model of Man, unsatisfied stomachwise, will soon hatch, but I don't have enough food yet to feed him!</text>
+	</string>
+	<string id="vybegallo_start_8">
+		<text>Mon dieu, an enemy of science? I have you informed that the tzarist gendarmerie did not frighten me, and you don't frighten me either! Now please take your leave, I have to find some tuna cans for my experiment.</text>
+	</string>
+	<string id="vybegallo_start_9">
+		<text>Alas, everything is not that easy, comprenez-vous? As a man of honour I first need to finish my duties, n'est-ce pas? Maybe if I give you some tuna cans you'd help me out?</text>
+	</string>
+	<string id="vybegallo_start_10">
+		<text>What is your problem you foo... Wait, maybe you'd be ready to trade the information for some tuna cans?</text>
+	</string>
+	<string id="vybegallo_start_11">
+		<text>Ah je vois, the call of duty, n'est-ce pas? Very admirable of you comrade. Of course I'll help you in exchange for, let's say, 3 cans of tuna.</text>
+	</string>
+	<string id="vybegallo_start_12">
+		<text>Ah, a dirty capitalist... but yes, science has to be pragmatic and has to sometimes bow to objective circumstances... Alright, bring me 5 cans of tuna and I'll share the information with you.</text>
+	</string>
+
+<string id="translator_vybegallo_0">
+		<text>I got your tuna cans.</text>
+	</string>
+	<string id="translator_vybegallo_1">
+		<text>Merci mon chere! Now if you could find me more, science would be very gratefull.</text>
+	</string>
+	<string id="translator_vybegallo_2">
+		<text>Professor, did you forget our deal? Tuna cans for informations on the new owner of the sleeping bag - translator, inventory n°1123.</text>
+	</string>
+	<string id="translator_vybegallo_3">
+		<text>Ah that old story? Oui oui, I gave it to a Clear Sky fellow, Volka something, the Flea maybe. Wanted to go to the Great Swamp, he was assigned to guard a tower east of their main base there. \n \nNow, retournons a l'important, I need more of these cans if you would be so kind.</text>
+	</string>
+
+<string id="vybegallo_tuna_man_0">
+		<text>Why are you looking for that much tuna anyway?</text>
+	</string>
+	<string id="vybegallo_tuna_man_1">
+		<text>Comrade, how to start? The most important thing is that man should be happy. I note this in parentheses: Happiness is a human concept. And what is man, philosophically speaking? Man, comrade, is Homo sapiens, who has desires and abilities.
+		N'est-ce pas, comrades? If he-- man, that is-- can have all that he wants and wants all that he can have, then he is truly happy. We will define him so. And what do we do here, mon chere? We have a model. A model of an Man, unsatisfied stomachwise. This model has desires, and that is all to the good. So to speak, excellent, exquis, charmant. So in order to be happy, these desires have to be satisfied, n'est-ce pas? </text>
+	</string>
+	<string id="vybegallo_tuna_man_2">
+		<text>So you try to prove that in order to be happy, man only needs his materialistic needs covered?</text>
+	</string>
+	<string id="vybegallo_tuna_man_3">
+		<text>Nooo, noo, who put this drivel into your head? Probably that Oira-Oira... On dit que Vibegallo is allegedly an enemy of the spiritual. That, comrade, is a label. We should have put aside such labels in scientific discussions a long time ago, comrades. We all know that all that is material leads the way and all 
+		that is spiritual brings up the rear. Satur venter, as is well known, non studit libentur. Which we will translate, as it applies to this situation, in this way: Bread is always on the mind of the hungry.</text>
+	</string>
+	<string id="vybegallo_tuna_man_4">
+		<text>...</text>
+	</string>
+	<string id="vybegallo_tuna_man_5">
+		<text>Isn't it the other way around?</text>
+	</string>
+	<string id="vybegallo_tuna_man_6">
+		<text>But there is also the practical aspects. I continue and turn to the next stage of the experiment. I am clarifying my presentation for the sake of your scientific education. In accordance with the materialist concept, and material consumption needs 
+		having been temporarily satisfied, we can turn to the satisfaction of spiritual needs. Such as go to a movie, enjoy television, listen to folk songs or sing oneself, or even read a book, or a newspaper. ... Comrade, we do not forget that abilities are required for all that, while the satisfaction of material needs does not require any special 
+		abilities, which are always present, since nature follows the materialistic viewpoint. As yet we cannot say anything about this model's spiritual capabilities, inasmuch as the seed of its rationality resides in alimentary hunger. But we shall expose these spiritual capabilities when the time comes!</text>
+	</string>
+	<string id="vybegallo_tuna_man_7">
+		<text>The commentary from the audience, will be noted with indignation. It is regarded as uninformed. Let us not be diverted from the main topic-- from the practical aspects. I continue and turn to the next stage of the experiment. I am clarifying my presentation for the sake of your scientific education. In accordance with the materialist concept, and material consumption needs 
+		having been temporarily satisfied, we can turn to the satisfaction of spiritual needs. Such as go to a movie, enjoy television, listen to folk songs or sing oneself, or even read a book, or a newspaper. ... Comrade, we do not forget that abilities are required for all that, while the satisfaction of material needs does not require any special 
+		abilities, which are always present, since nature follows the materialistic viewpoint. As yet we cannot say anything about this model's spiritual capabilities, inasmuch as the seed of its rationality resides in alimentary hunger. But we shall expose these spiritual capabilities when the time comes!</text>
+	</string>
+	<string id="vybegallo_tuna_man_8">
+		<text>Okay... so you need all this tuna in order to satisfy your model of a man, for it to develop it's spiritual capabilities later?</text>
+	</string>
+	<string id="vybegallo_tuna_man_9">
+		<text>Exactement! Ah mon chere, you're a bright fellow, you'll come in handy as my assistant. \n \nSadly, science has been betrayed by the Institute, and I'm left alone here without the sufficient means to conduct my experiment! But no one can say that Vybegallo is easily subdued! The tzarist gendarmerie didn't subdue me, nor will these conditions! Jamais!
+		\n \nI even was able to find a solution to my predicament, I managed to pass an order with this enterprising fellow Sidorovich. Sadly the courrier never arrived with the bag of tuna cans, apparently there has been a problem on the road here... </text>
+	</string>
+	<string id="vybegallo_tuna_man_10">
+		<text>Eh, what is the price Sidorovich asks for this bag of tuna cans?</text>
+	</string>
+	<string id="vybegallo_tuna_man_11">
+		<text>He was happy with only a Veles detector, can you imagine it? A real bargain!</text>
+	</string>
+	<string id="vybegallo_tuna_man_10">
+		<text>What the fuck, a Veles???... Alright, if I manage to get this shipment of tuna cans you will have enough for your experiment?</text>
+	</string>
+	<string id="vybegallo_tuna_man_11">
+		<text>Oh that would be merveilleux! Absolument, the bag will be enough! But please hurry, the model will soon hatch!</text>
+	</string>
+
+<string id="vybegallo_tuna_found_0">
+		<text>I found your tuna bag.</text>
+	</string>
+	<string id="vybegallo_tuna_found_1">
+		<text>Ah, la science vous remercie! Good work comrade!</text>
+	</string>
+	<string id="vybegallo_tuna_found_2">
+		<text>Don't forget to send the Veles detector to Sidorovich! And maybe you have some reward for me for bringing you your tuna?</text>
+	</string>
+	<string id="vybegallo_tuna_found_3">
+		<text>I managed to renegotiate Sidorovich's payment, it's 20'000 in cash. Maybe you have some reward for me for bringing you your tuna?</text>
+	</string>
+	<string id="vybegallo_tuna_found_4">
+		<text>I'll have the payment send to Sidorovich. As for a reward, you have my and humanity's thanks, that is worth more than any worldly goods, n'est-ce pas?</text>
+	</string>	
+
+<string id="sidorovich_tuna_bag_0">
+		<text>You were supposed to organize the delivery of tuna cans for Vybegallo. What happened to the shipment?</text>
+	</string>
+	<string id="sidorovich_tuna_bag_1">
+		<text>Ah you're coming to check up on the order? Well, my courrier ran into some troubles you see. A pack of wild dogs jumped him on his way to Agroprom and he had to sacrifice the bag with the cans in order to distract the mutants. Are you interested in recovering in?</text>
+	</string>
+	<string id="sidorovich_tuna_bag_2">
+		<text>Depends on how much you offer me from this scam of yours.</text>
+	</string>
+	<string id="sidorovich_tuna_bag_3">
+		<text>I might, but on the condition that we renegotiate your reward for the delivery. A fucking Veles is a rip-off.</text>
+	</string>
+	<string id="sidorovich_tuna_bag_4">
+		<text>The last guy wanted 3'000 and some food for the job. And to be honest it's not worth much more, it's only a short stroll until Agroprom after all.</text>
+	</string>
+	<string id="sidorovich_tuna_bag_5">
+		<text>You fucking cheapskate, don't you have any shame? Especially considering what you'll get in return for a bag of rotten food??? 10'000 and throw in some medicine, or you'll never see your Veles.</text>
+	</string>
+	<string id="sidorovich_tuna_bag_6">
+		<text>Alright, a deal has been struck. </text>
+	</string>
+	<string id="sidorovich_tuna_bag_7">
+		<text>What are you talking about, a bargain has been struck! This Vybegallo wanted a shit ton of premium tuna and considered that a Veles was a worthy payment for it!</text>
+	</string>
+	<string id="sidorovich_tuna_bag_8">
+		<text>You're taking advantage of fools Sidorovich! Fuck your greed. Either you'll content yourself with 20'000 rubles or you won't see anything at all!</text>
+	</string>
+	<string id="sidorovich_tuna_bag_9">
+		<text>Fuck you! I'll find someone else for the job!</text>
+	</string>
+	<string id="sidorovich_tuna_bag_10">
+		<text>Good luck, Vybegallo's experiment will soon be ready and after that he will have no more need for your fucking tuna! Try finding someone on such a short notice.</text>
+	</string>
+	<string id="sidorovich_tuna_bag_11">
+		<text>Fucking hell, alright, 20'000 it is. Now what about your fee? The last guy wanted 2'000 and some food for the job. And to be honest it's not worth much more, it's only a short stroll until Agroprom after all.</text>
+	</string>
+	<string id="sidorovich_tuna_bag_12">
+		<text>You're not only ripping off that foolish scientist but also the one who actually has to confront the danger for you? Give me at least 6'000 and some medicine!</text>
+	</string>
+	<string id="sidorovich_tuna_bag_13">
+		<text>[Experience] Be reasonable Sidorovich, time is running out and 2'000 is a blatant rip-off! 5'000 and some medicine and you're still making money!!!</text>
+	</string>
+	<string id="sidorovich_tuna_bag_14">
+		<text>No fucking way, not with only 20'000 as payment for the bag! I have a business to run you moron! 3'000 with some food and I'll throw a pack of cigarettes in, that's all.</text>
+	</string>
+	<string id="sidorovich_tuna_bag_15">
+		<text>Okay, I see the Zone turned you into a shrewed bargainer...deal!</text>
+	</string>
+	<string id="sidorovich_tuna_bag_16">
+		<text>Alright... Now where did your courier loose the bag?</text>
+	</string>
+	<string id="sidorovich_tuna_bag_17">
+		<text>Next to the crossroad leading to Agroprom in Garbage. The pack of dogs jumped out of the abandonned construction site and afterwards dragged the bag off into the direction of the Witch Jelly Anomaly. They let go of it somewhere near an old van. \n \nFind it and return with my payment!!!</text>
+	</string>
+	
+<string id="sido_reward_tuna_0">
+		<text>I'm here for my payment for the tuna delivery.</text>
+	</string>
+	<string id="sido_reward_tuna_1">
+		<text>What payment?</text>
+	</string>
+	<string id="sido_reward_tuna_2">
+		<text>Don't fool around Sidorovich, my 10'000 for finding and delivering the bag.</text>
+	</string>
+	<string id="sido_reward_tuna_3">
+		<text>Don't fool around Sidorovich, my 3'000 for finding and delivering the bag.</text>
+	</string>
+	<string id="sido_reward_tuna_4">
+		<text>Don't fool around Sidorovich, my 5'000 for finding and delivering the bag.</text>
+	</string>
+	<string id="sido_reward_tuna_5">
+		<text>I'm kidding! Don't make that face, here is your cash and little extra. Pleasure doing business with you.</text>
+	</string>
+
+<string id="carrier_translator_start_0">
+		<text>You wouldn't have any caffeine pills would you?</text>
+	</string>
+	<string id="carrier_translator_start_1">
+		<text>[Caffeine] Sure, here you go. What's up?</text>
+	</string>
+	<string id="carrier_translator_start_2">
+		<text>No sorry, I don't have any. What is the problem?</text>
+	</string>
+	<string id="carrier_translator_start_3">
+		<text>Thanks mate. I'm barely able to sleep at night... I see these dreams... but they seem so real! Like hallucinations... I even lost my new gun because of this shit.</text>
+	</string>
+	<string id="carrier_translator_start_4">
+		<text>I'm barely able to sleep at night... I see these dreams... but they seem so real! Like hallucinations... I even lost my new gun because of this shit.</text>
+	</string>
+	<string id="carrier_translator_start_5">
+		<text>What happened?</text>
+	</string>
+	<string id="carrier_translator_start_6">
+		<text>I just arrived in the Great Swamp... I trecked all the way from Agroprom, and dusk already settled in. I crawled into one of these train carts, the night was quiet... I fell asleep straight away or so I thought... and suddenly  </text>
+	</string>
+	<string id="carrier_translator_start_7">
+		<text>No sorry, I don't have any. What is the problem?</text>
+	</string>
+	<string id="carrier_translator_start_8">
+		<text>[Caffeine] Sure, here you go. What's up?</text>
+	</string>
+	<string id="carrier_translator_start_9">
+		<text>No sorry, I don't have any. What is the problem?</text>
+	</string>
+	<string id="carrier_translator_start_10">
+		<text>[Caffeine] Sure, here you go. What's up?</text>
+	</string>
+	<string id="carrier_translator_start_11">
+		<text>No sorry, I don't have any. What is the problem?</text>
 	</string>
 
 ---Roman Oira Oira---
 <string id="roman_oiraoira_start_0">
-		<text>What to you want?</text>
+		<text>How can I help you?</text>
 	</string>
 	<string id="roman_oiraoira_start_1">
-		<text>Who are you?</text>
+		<text>Who are you? What are you doing here?</text>
 	</string>
 	<string id="roman_oiraoira_start_2">
-		<text>Nothing.</text>
+		<text>I'm Roman Oira-Oira. As what I'm doing here - that's a good question. I'm supposed to supervise the activities of NIIChaVo here in the Zone, but at the moment I'm stuck here with the other idiot.</text>
 	</string>
 	<string id="roman_oiraoira_start_3">
-		<text>I'm Roman Oira-Oira.</text>
+		<text>NIIChaVo?</text>
+	</string>
+	<string id="roman_oiraoira_start_4">
+		<text>The other idiot?</text>
+	</string>
+	<string id="roman_oiraoira_start_5">
+		<text>The Scientific Research Institute of Sorcery and Wizardry. Don't try to understand, for you it's sufficient to know that we are scientists - researching the higher spheres of science which you would consider as wizardy.</text>
+	</string>
+	<string id="roman_oiraoira_start_6">
+		<text>Vybegallo, the main headache for me here. You too should be wary of him, he's a pseudo-scientific moron, a danger for his surrounding if you ask me. \n \nHe wants to prove that all the troubles that were came from unsatisfied desires, and if man was given everything, such as plenty of bread and steamed bran, then you'd not have a man, but an angel.</text>
+	</string>
+	<string id="roman_oiraoira_start_7">
+		<text>What? And how does he try to prove it?</text>
+	</string>
+	<string id="roman_oiraoira_start_8">
+		<text>He laid out three experimental models; \n \nModel of Man, totally unsatisfied; \n \nModel of Man, unsatisfied stomachwise; and \n \nModel of Man, completely satisfied. \n \n \n \n
+		The totally unsatisfied anthropoid matured first-- he has hatched two weeks ago. The miserable creature, covered like Job with boils, half decomposed, tortured with all the known and unknown ailments, suffering from
+		heat and cold simultaneously, wandered out into the hall, and filled the Institute with the sounds of its complaints, and finally died. Vybegallo was triumphant. Now one could consider it a proved fact that if a man was
+		not fed and given water, was not doctored, then he could be considered to be unhappy-- and might even die. As this one had.</text>
+	</string>
+	<string id="roman_oiraoira_start_9">
+		<text>This is madness!</text>
+	</string>
+	<string id="roman_oiraoira_start_10">
+		<text>This is genius!</text>
+	</string>
+	<string id="roman_oiraoira_start_11">
+		<text>Oh, I fully agree. You might even call it eugenics! The Learned Council was also shocked. Vybegallo's undertaking was turning out to have a very dark side. A commission was instituted to review his
+				work. But he, in no way shaken, presented two depositions, from which it developed that three of his lab technicians took leave yearly to work in the
+				local SOVKHOZ, and, secondly, that he, Vybegallo, had once been a prisoner of the tsar and was now a regular lecturer on popular topics both in the
+				city auditorium and the environs. While the stunned commission was attempting to make sense of the logic in all this data, U-Janus send him here in order to mitigate the potential outfall and I'm stuck with him.</text>
+	</string>
+	<string id="roman_oiraoira_start_12">
+		<text>Eh, what? Did you fully understand what I just told you? This madness might even be called eugenics! Even the Learned Council was shocked. Vybegallo's undertaking was turning out to have a very dark side. A commission was instituted to review his
+				work. But he, in no way shaken, presented two depositions, from which it developed that three of his lab technicians took leave yearly to work in the
+				local SOVKHOZ, and, secondly, that he, Vybegallo, had once been a prisoner of the tsar and was now a regular lecturer on popular topics both in the
+				city auditorium and the environs. While the stunned commission was attempting to make sense of the logic in all this data, U-Janus send him here in order to mitigate the potential outfall and I'm stuck with him.</text>
+	</string>
+	<string id="roman_oiraoira_start_13">
+		<text>And now?</text>
+	</string>
+	<string id="roman_oiraoira_start_14">
+		<text>Vybegallo was of course not happy about this, complaining about where he's supposed to get the food from for his model of Man, unsatisfied stomachwise, but what other choice did he have? U-Janus's decisions are followed, he has some strange insight into the potential ramifications of the future. There have been precendents. 
+			\n \nNow Vybegallo is frantically amassing cans of Tuna in order to feed his experiment. He even traded the Universal Translator for a couple of cans, can you imagine??? Claimed that the Translator was nothing more than an old sleeping bag, a mere museum exponat without practical use beyond sleeping in it, and that we have a new dual-powered, TDX-eight-OE, Kitezhgrad factory produced translator, and that either way the significance of this old museum piece was dwarfed by the scientific revolution that his model of Man would bring...
+			Of course that fool Korneev is also to blame, could have left it at the institute, but no, had to steal it and bring it here.</text>
+	</string>
+	<string id="roman_oiraoira_start_15">
+		<text>Universal Translator? Sleeping bag?</text>
+	</string>
+	<string id="roman_oiraoira_start_16">
+		<text>Right, right, this is all new for you. An universal translator is a device that erectes a M-fleld around itself, which, simply stated, converted normal reality into imaginary reality. \n \nThis translator is quite unique, Ben Beczalel assembled and tuned it for hundred of years, it works faultlessly, not like this new Kitezhgrad one. Even more, some people believe it contains the White Thesis! Mention of the White Thesis could be found only in Ben Beczalel's 
+		diaries. It was alleged that he distilled it as a by-product of some alchemical reaction, and not having the time to waste on such trifles, he built it into some apparatus of his as an auxiliary subsystem. In one of his last memoirs, written while he was already in prison, Ben Beczalel 
+		proclaimed: \n \n"And can you imagine? That White Thesis did not come up to my expectations, not at all. And when I comprehended what use could have been made of it-- I am referring to the happiness of all men, no matter how many-- I had already forgotten where I had inserted it." \n \n
+		The Institute numbered seven apparatus that had once belonged to Ben. Redkin had disassembled six of them down to the last bolt and had not found anything special. The seventh apparatus was the sleeping bag-translator. So you can see what a disaster it is that Vybegallo traded it off!</text>
+	</string>
+	<string id="roman_oiraoira_start_17">
+		<text>Why are you telling me all of this?</text>
+	</string>
+	<string id="roman_oiraoira_start_18">
+		<text>I had to get it off my chest! You can't imagine how it is to be stuck with this moron here for weeks without talking to a normal person! ...\n \nBesides, I somewhat hope you could help me out with this problem. Someone has to recover this sleeping bag while I keep an eye on Vybegallo. U-Janus told me that if some trouble arises, I could rely on a Stalker - I guess that would be you.</text>
+	</string>
+	<string id="roman_oiraoira_start_19">
+		<text>I guess I can... how can I find it?</text>
+	</string>
+	<string id="roman_oiraoira_start_20">
+		<text>Thanks! It looks like a normal sleeping bag, except that it carries the inventory number 1123! I wouldn't recommend sleeping in it though... \n \nAs where you can find it, I sadly have no clue... Vybegallo refuses to tell me to whom he traded it away. You should probably start with him. If you could also stop him from giving away valuable Institute property, I'd be gratefull too.</text>
 	</string>
 
-
+<string id="oiraoira_tuna_bag_0">
+		<text>I solved Vybegallo's tuna problem, he won't squander Institute ressources... for the moment.</text>
+	</string>
+	<string id="oiraoira_tuna_bag_1">
+		<text>Ah thanks alot! How did you manage?</text>
+	</string>
+	<string id="oiraoira_tuna_bag_2">
+		<text>Vybegallo struck a deal with Sidorovich: enough tuna for a Veles detector... there was nothing to be done, a deal is a deal...</text>
+	</string>
+	<string id="oiraoira_tuna_bag_3">
+		<text>Vybegallo wanted to trade a Veles detector for a tuna shipment. I managed to renegotiate the deal to 20'000 in cash...</text>
+	</string>
+	<string id="oiraoira_tuna_bag_4">
+		<text>Whaaaaat? That fucking moron!!!! \n \nWell there is nothing to be done... Thanks for your help... sadly as the situation is at the moment, Institue ressources are thin and I can't give you alot for your help...</text>
+	</string>
+	<string id="oiraoira_tuna_bag_5">
+		<text>What a moron! Luckily we have you... \n \nHere a small contribution to the struggle for survival!</text>
+	</string>
+	
+	
 
 ----A Hero of our Time----
 
 
 --- Pechorin ---
 
+
+	
 <string id="pechorin_start_0">
 		<text>What to you want?</text>
 	</string>
@@ -305,8 +682,7 @@
 	</string>
 	<string id="pechorin_start_3">
 		<text>I'm Pechorin.</text>
-	</string>
-
+	</string>	
 
 
 

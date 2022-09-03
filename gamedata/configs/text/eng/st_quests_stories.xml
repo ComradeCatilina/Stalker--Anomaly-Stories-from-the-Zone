@@ -34,9 +34,16 @@
 	<string id="give_task_lyoshik_5_danila_title">
 		<text>Find and recruit Danila</text>
 	</string>
-	<string id="give_task_lyoshik_5_danila_descr">
-		<text>Lyoshik wants me to find and recruit Danila. Apparently he could be somewhere around Zaton or Jupiter.</text>
+	<string id="give_task_lyoshik_5_danila_descr_1">
+		<text>Lyoshik wants me to find and recruit Danila.</text>
 	</string>
+	<string id="give_task_lyoshik_5_danila_descr_2">
+		<text>Lyoshik wants me to find and recruit Danila. Apparently he wanted to buy a gun from Butcher.</text>
+	</string>
+	<string id="give_task_lyoshik_5_danila_descr_3">
+		<text>Lyoshik wants me to find and recruit Danila. Butcher told me he went to Jupiter in order to free his brother.</text>
+	</string>
+	
 	<string id="give_task_lyoshik_5_boris_title">
 		<text>Find and recruit Boris</text>
 	</string>
@@ -44,11 +51,23 @@
 		<text>Lyoshik wants me to find and recruit Boris. I should ask among weapon traders if they have seen him.</text>
 	</string>
 	<string id="give_task_lyoshik_5_boris_descr_1">
-		<text>Lyoshik wants me to find and recruit Boris. Maybe I should ask Nimble or someone in the Clear Sky base for his location.</text>
+		<text>Lyoshik wants me to find and recruit Boris. Maybe I should ask Nimble for his location.</text>
 	</string>
 	<string id="give_task_lyoshik_5_boris_descr_2">
-		<text>Lyoshik wants me to find and recruit Boris. He should be in Agroprom.</text>
+		<text>Lyoshik wants me to find and recruit Boris. He should be in Agroprom.</text>	
 	</string>
+	
+	<string id="give_task_find_gun_boris_name">
+		<text>Recover the gun for Boris</text>
+	</string>
+	<string id="give_task_find_gun_boris_descr_1">
+		<text>A Stalker stole Boris's gun and made off into the Agroprom Underground. Find and recover the gun.</text>
+	</string>
+	<string id="give_task_find_gun_boris_descr_2">
+		<text>I found Boris's gun, I should bring it to him.</text>
+	</string>
+	
+	
 	<string id="give_task_lyoshik_5_sergey_title">
 		<text>Find and recruit Sergey</text>
 	</string>
@@ -64,6 +83,48 @@
 	<string id="give_task_kill_hitsquad_sergey_2_descr">
 		<text>Sergey's problem has been taken care off. I should tell him that he can come out of hiding now.</text>
 	</string>
+	
+	
+	
+	
+----- NIIChaVo ------
+
+--- Universal Translator ---
+	<string id="give_task_find_translator_name">
+		<text>Find the sleeping bag - translator n°1123</text>
+	</string>
+	<string id="give_task_find_translator_descr_1">
+		<text>I should ask Vybegallo to whom he traded the sleeping bag</text>
+	</string>
+	<string id="give_task_find_translator_descr_2_1">
+		<text>Vybegallo wants 3 cans of Tuna for the information on the new owner</text>
+	</string>
+	<string id="give_task_find_translator_descr_2_2">
+		<text>Vybegallo wants 5 cans of Tuna for the information on the new owner</text>
+	</string>
+	<string id="give_task_find_translator_descr_3">
+		<text>Vybegallo traded the translator to a Clear Sky member called "Volka the Flea". He should be in the Great Swamp, between the base and the old chruch</text>
+	</string>
+	<string id="give_task_find_translator_descr_4">
+		<text>I found the sleeping bag - translator. I should bring it to Roman Oira-Oira</text>
+	</string>
+
+	<string id="give_task_find_tuna_bag_name">
+		<text>Find and deliver Vybegallo's tuna bag</text>
+	</string>
+	<string id="give_task_find_tuna_bag_descr_1">
+		<text>Vybegallo ordered a shipment of tuna bags from Sidorovich, but apparently the courrier ran into some troubles. Talk to Sidorovich to find out what happened</text>
+	</string>
+	<string id="give_task_find_tuna_bag_descr_2">
+		<text>The courrier lost the bag during a dog attack in Garbage. They dragged the bag off towards the Witch Jelly anomaly, it should be somewhere near an old van</text>
+	</string>
+	<string id="give_task_find_tuna_bag_descr_3">
+		<text>I found the tuna bag. I should bring it to Vybegallo</text>
+	</string>
+	<string id="give_task_find_tuna_bag_descr_4">
+		<text>I should collect my reward for the succesfull delivery of the order from Sidorovich</text>
+	</string>
+--- Model of a Man ---	
 	
 	<string id="give_task_kill_satisfied_man_1_name">
 		<text>Kill the fully satisfied man</text>

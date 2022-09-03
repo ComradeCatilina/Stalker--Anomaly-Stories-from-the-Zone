@@ -738,7 +738,7 @@
        
         wpn_cz75 \n
         ammo_9x18_ap = 3 \n
-        wpn_bm16_alt \n
+        wpn_fort500 \n
         ammo_12x70_buck = 4 \n
 		</supplies>
 #include "gameplay\character_criticals.xml"

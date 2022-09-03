@@ -1,0 +1,117 @@
+;==============================================================
+;
+; QUEST ITEMS
+;	Uranium Crusader // Stories from the Zone
+;
+;	Modified by: ComradeCatilina
+;	Last revised: 2022
+;
+;==============================================================
+
+------Quest Items------
+
+[quest_package_vybegallo]:tch_quest
+$spawn                                   = "quest_items\quest_package_vybegallo"
+kind			                     = i_quest
+visual                                   = dynamics\equipments\trade\kit_hunt.ogf
+story_id                                 = quest_package_vybegallo
+;quest_item                             = true
+inv_weight                               = 5.42
+inv_grid_width                           = 2
+inv_grid_height                          = 2
+inv_grid_x                               = 4
+inv_grid_y                               = 77
+inv_name                                 = quest_package_vybegallo_name
+inv_name_short                           = quest_package_vybegallo_name
+description                              = quest_package_vybegallo_desc
+can_trade                                = false
+cost                                     = 0
+
+
+[itm_sleepbag_1123]:tch_quest
+$spawn                                             = "quest_items\itm_sleepbag_1123"
+kind								           = i_quest
+cform                                              = skeleton
+visual                                             = dynamics\equipments\item_sleepbag.ogf
+inv_weight                                         = 2.28
+description                                        = st_itm_sleepbag_1123_descr
+inv_name                                           = st_itm_sleepbag_1123_name
+inv_name_short                                     = st_itm_sleepbag_1123_name
+inv_grid_width		                               = 3
+inv_grid_height		                               = 2
+inv_grid_x		                                   = 0
+inv_grid_y		                                   = 48
+can_trade                                = false
+cost                                     = 0
+quest_item      	                     = true
+eat_health                                         = 0
+eat_satiety                                        = 0
+eat_power                                          = 0
+eat_radiation                                      = 0
+eat_alcohol                                        = 0
+wounds_heal_perc                                   = 0
+animation_slot                                     = 4
+hud                                                = wpn_vodka_hud
+placeable_section                                  = ph_sleepbag	                                       ;Section of placeable physics object
+
+; use1_functor                = item_tent.str_use
+; use1_action_functor         = item_tent.func_use_bag
+
+
+------NIICHaVo Items------
+
+[af_grid_up_s]:af_base
+$spawn				                               = "artefacts\af_grid_up_s"
+kind			                               = i_attach
+class				                               = SCRPTART  	; будет подпрыгивать
+visual                                             = dynamics\equipments\aa\frames
+description			                               = st_af_grid_up_s_descr
+inv_name			                               = st_af_grid_up_s_name
+inv_name_short			                           = st_af_grid_up_s_name
+inv_weight			                               = 1.00
+inv_grid_x			                               = 2
+inv_grid_y			                               = 19
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+cost				                               = 24800 ; 6200
+1icon_layer_x       	                           = 0
+1icon_layer_y      		                           = 0
+1icon_layer_scale   	                           = 1
+1icon_layer        	                               = tch_upgr_ico
+jump_height			                               = 0.0
+;particles		                                   = artefact\af_thermal_idle
+det_show_particles		                           = artefact\af_thermal_show
+det_hide_particles		                           = artefact\af_thermal_hide
+particles_bone			                           = joint2
+af_rank				                               = 0
+lights_enabled                                     = false
+trail_light_color 		                           = 0.9,0.4,0.2
+trail_light_range 		                           = 2.0
+attach_angle_offset		                           = 1.922,1.551,-0.740   
+attach_position_offset                             = 0.15,0.002,0.25
+attach_bone_name		                           = bip01_r_hand
+auto_attach			                               = false
+;скорости увеличения (уменьшения)
+health_restore_speed		                       = 0
+radiation_restore_speed		                       = 0
+satiety_restore_speed		                       = 0
+power_restore_speed		                           = 0
+bleeding_restore_speed		                       = 0
+hit_absorbation_sect		                       = af_grid_up_absorbation
+additional_inventory_weight		                   = 10.97	;20.97
+additional_inventory_weight2		               = 10.97	;20.97
+artefact_activation_seq		                       = af_activation_bold
+repair_part_bonus	 	                           = 0.11
+
+tier = 6
+
+[af_grid_up_s_absorbation]
+burn_immunity 			                           = 0				;коэффициенты иммунитета
+strike_immunity 		                           = 0
+shock_immunity 			                           = -0.032
+wound_immunity 			                           = 0
+radiation_immunity 		                           = 0
+telepatic_immunity 		                           = 0.00862	; 200 mT
+chemical_burn_immunity 		                       = 0
+explosion_immunity 		                           = 0
+fire_wound_immunity  		                       = 0

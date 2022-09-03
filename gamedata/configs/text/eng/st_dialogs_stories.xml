@@ -241,7 +241,7 @@
 		<text>Tell me about Sergey.</text>
 	</string>
 	<string id="lyoshik_task_5_13">
-		<text>Danila is quite the killer. Veteran from Chechnya, did some high profile hits in St Petersbourg, Moscow and from what I heard America too. \n \nLast I heard he slipped through the Red Forest a couple of weeks ago. Look for him somewhere in the north, Jupiter or maybe Zaton. </text>
+		<text>Danila is quite the killer. Veteran from Chechnya, did some high profile hits in St Petersbourg, Moscow and from what I heard America too. \n \nLast I heard he slipped through the Red Forest some time ago. Maybe he is somewhere in the north, maybe not. Ask around to find out more.</text>
 	</string>
 	<string id="lyoshik_task_5_14">
 		<text>Boris the Blade, or also known as Bulletdodger Boris. The guy is apparently immortal, although I wouldn't advise to find out. Apparently ex-KGB. Worked for some time in London, but came here a couple of years ago. Was active in the weapon smuggling business. \n \nI don't know where he is at the moment, but ask around weapon traders, they might have heard of their colleague.</text>
@@ -266,10 +266,45 @@
 		<text>Nothing.</text>
 	</string>
 	<string id="boris_blade_start_3">
-		<text>Ah Lyoshik is that so? Tell him no.</text>
+		<text>Ah Lyoshik is that so? As much as I'd like to participate, I'm caught up in something at the moment.</text>
+	</string>
+	<string id="boris_blade_start_4">
+		<text>What is the problem?</text>
+	</string>
+	<string id="boris_blade_start_5">
+		<text>I suppose you could be of help, especially as Lyoshik deems you capable enough of leading the crew. \n \nI was supposed to deliver a custom SVD to Clear Sky for Nimble. On the way to the Swamps an emission surprised me and I had to seek cover here. There was this guy, probably noticed the value of the rifle I was carrying. Grabbed the rifle during the night and made off to the Underground. I don't have the hardware to follow him in there, so I tried to ambush him on the way out... but he never showed up. Something got him down there. If you could go down and find the rifle for me, I'd be much obliged and free to run with Lyoshik and you.</text>
+	</string>
+	<string id="boris_blade_start_6">
+		<text>Sure I'll find your rifle.</text>
+	</string>
+	<string id="boris_blade_start_7">
+		<text>I need to gear up first.</text>
+	</string>
+	<string id="boris_blade_start_8">
+		<text>Thanks Stalker.</text>
+	</string>
+	<string id="boris_blade_start_9">
+		<text>I'll be waiting.</text>
 	</string>
 	
-	
+	<string id="boris_blade_quest_0">
+		<text>I found your rifle.</text>
+	</string>
+	<string id="boris_blade_quest_1">
+		<text>Thanks Stalker. How did you find him?</text>
+	</string>
+	<string id="boris_blade_quest_2">
+		<text>Dead. Was rotting where you suspected him to be. The rifle didn't do him any good.</text>
+	</string>
+	<string id="boris_blade_quest_3">
+		<text>Serves that fucker right... Here for the trouble, and some extra. \n \n Now, I'll be on my way soon, making this delivery. Where can I find Lyoshik and you later?</text>
+	</string>
+	<string id="boris_blade_quest_4">
+		<text>In the Army Warehouse, in one of the barracks.</text>
+	</string>
+	<string id="boris_blade_quest_5">
+		<text>Alright, I'll be there.</text>
+	</string>
 	
 	<string id="danila_bagrov_start_0">
 		<text>What are you looking at?</text>

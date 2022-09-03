@@ -33,7 +33,34 @@
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>	
 	
-	
+	<specific_character id="thief_boris" team_default="1">
+		<name>thief_boris_name</name>
+		<icon>ui_inGame2_neutral_1w_mask</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio></bio>
+		
+		<class>thief_boris</class>
+		<community>stalker</community> 
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<snd_config>characters_voice\human\stalker_1\</snd_config><!--2-->
+		
+		<rank>3200</rank>
+		<money min="200" max="300" infinitive="1"/>
+		<reputation>-500</reputation>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\stalker_neutral\stalker_neutral1b_mask</visual>
+		<supplies>
+
+		[spawn] \n
+		wpn_ak74 \n
+        ammo_5.45x39_fmj \n
+		wpn_svd_nimble \n
+		
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		
+	</specific_character>
 
 
 <!-- Monday starts on Saturday -->	
@@ -85,7 +112,10 @@
 		</supplies>
 #include "gameplay\character_criticals.xml"
 		<start_dialog>vybegallo_start_dialog</start_dialog>
-		<actor_dialog>killed_satisfied_man</actor_dialog>
+		<actor_dialog>translator_vybegallo_1</actor_dialog>
+		<actor_dialog>translator_vybegallo_2</actor_dialog>
+		<actor_dialog>vybegallo_tuna_man</actor_dialog>
+		<actor_dialog>vybegallo_tuna_found</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 	
@@ -111,9 +141,38 @@
 		</supplies>
 #include "gameplay\character_criticals.xml"
 		<start_dialog>roman_oiraoira_start_dialog</start_dialog>
+		<actor_dialog>find_translator</actor_dialog>		
 		<actor_dialog>killed_satisfied_man</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
+	
+<specific_character id="carrier_translator" team_default = "1">
+		<name>carrier_translator_name</name>
+		<icon>ui_inGame2_csky_5</icon>
+		<map_icon x="0" y="6"></map_icon>
+		<bio></bio>
+		<class>carrier_translator</class>
+		<community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>1200</rank>
+		<reputation>-250</reputation>
+		<visual>actors\stalker_nebo\stalker_nebo2a</visual>
+		<snd_config>characters_voice\human\csky_3\</snd_config>
+		<crouch_type>1</crouch_type>
+		<supplies>
+        [spawn] \n
+        wpn_protecta \n
+        ammo_12x76_zhekan = 2 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+        detector_simple \n
+		itm_sleepbag_1123 \n
+		
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		<start_dialog>carrier_translator_start</start_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>	
+	
 
 
 <!-- A Hero of our Time/Duel -->

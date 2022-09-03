@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!--===========================================================
+<
+< QUEST ITEMS TEXT  STRINGS
+<	Uranium Crusader // Stories from the Zone
+<
+<	Modified by: ComradeCatilina
+<	Last revised: 2022
+<
+<===========================================================-->
+
+
+<string_table>
+	<!-- Lyoshik -->
+	
+	
+	
+	
+	
+	
+	<!-- NIICHAVO -->
+	
+	
+	<string id="quest_package_vybegallo_name">
+		<text>Bag of Tuna Conserves</text>
+	</string>
+	<string id="quest_package_vybegallo_desc">
+		<text>Heavy bag, filled with Tuna Conserves. Vybegallo will be happy.</text>
+	</string>
+	
+	<string id="st_itm_sleepbag_1123_name">
+		<text>Sleeping Bag Inventory n°1123</text>
+	</string>
+	<string id="st_itm_sleepbag_1123_descr">
+		<text>Looks like a normal sleeping bag. Carries the inventory number 1123. Apparently this is an universal translator, potentially containing the mythical White Thesis.</text>
+	</string>
+	
+	
+	
+	
+	
+</string_table>

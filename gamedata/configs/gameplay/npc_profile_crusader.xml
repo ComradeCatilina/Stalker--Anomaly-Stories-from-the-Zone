@@ -14,6 +14,9 @@
 	<character id="courrier_lyoshik">
 		<class>courrier_lyoshik</class>
 	</character>
+	<character id="thief_boris">
+		<class>thief_boris</class>
+	</character>
 	<character id="danila_bagrov">
 		<class>danila_bagrov</class>
 	</character>
@@ -36,6 +39,9 @@
 	</character>
 	<character id="roman_oiraoira">
 		<class>roman_oiraoira</class>
+	</character>
+	<character id="carrier_translator">
+		<class>carrier_translator</class>
 	</character>
 	
 <!-- A Hero of our Time/Duel -->			

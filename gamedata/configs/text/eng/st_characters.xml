@@ -862,6 +862,9 @@
 	<string id="courrier_lyoshik_name">
 		<text>Courrier</text>
 	</string>
+	<string id="thief_boris_name">
+		<text>Vovan the Moth</text>
+	</string>
 	<string id="boris_blade_name">
 		<text>Boris the Blade</text>
 	</string>
@@ -880,6 +883,9 @@
 	<string id="roman_oiraoira_name">
 		<text>Roman Oira-Oira</text>
 	</string>
+	<string id="carrier_translator_name">
+		<text>Volka the Flea</text>
+	</string>	
 	<string id="pechorin_name">
 		<text>Pechorin</text>
 	</string>

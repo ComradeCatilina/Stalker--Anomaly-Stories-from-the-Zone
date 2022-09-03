@@ -19,7 +19,7 @@ title = {=actor_has_item(guitar_a) =actor_has_item(guitar_a)} guitar_yegor_letov
 descr = guitar_yegor_letov_descr
 target = {=actor_has_item(guitar_a) =actor_has_item(guitar_a)} yegor_letov
 condlist_0 = {+quest_guitar_done} complete
-on_complete = %=reward_item(joint) =inc_faction_goodwill_to_actor(stalker:1000)%
+on_complete = %=reward_item(joint) =inc_faction_goodwill_to_actor(stalker:25)%
 
 [quest_weed_give]
 icon = ui_icons_cordon22
@@ -82,16 +82,18 @@ on_complete = %=reward_money(3500)%
 
 --Quest Lyoshik 5--
 
+--Danila--
+
 [give_task_lyoshik_5_danila]
 icon = ui_iconsTotal_bar_crazy_veterans_quest
 prior = 20
 storyline = true
 
 title = give_task_lyoshik_5_danila_title
-target = {+danila_bagrov_where} danila_bagrov
-descr = give_task_lyoshik_5_danila_descr
+target = {+danila_bagrov_where} danila_bagrov, {+danila_bagrov_approx} hunter_gar_trader
+descr = {+danila_bagrov_where} give_task_lyoshik_5_danila_descr_3, {+danila_bagrov_approx} give_task_lyoshik_5_danila_descr_2, give_task_lyoshik_5_danila_descr_1
 
-condlist_0 = {+quest_meet_lyoshik_done} complete
+condlist_0 = {+quest_meet_danila_done} complete
 
 [give_task_danila]
 icon = ui_inGame2_Laboratoriya_X8
@@ -108,6 +110,8 @@ on_init = %=setup_assault_task(give_task_danila) =setup_companion_task(viktor_ba
 condlist_0 = {+quest_meet_lyoshik_done} complete
 on_complete = %=reward_money(5000)%
 
+--Boris--
+
 [give_task_lyoshik_5_boris]
 icon = ui_iconsTotal_bar_crazy_veterans_quest
 prior = 20
@@ -117,7 +121,24 @@ title = give_task_lyoshik_5_boris
 target = {+boris_blade_where} boris_blade
 descr = {+boris_blade_where} give_task_lyoshik_5_boris_descr_2, {+aprox_location_boris} give_task_lyoshik_5_boris_descr_1, give_task_lyoshik_5_boris_descr
 
-condlist_0 = {+quest_meet_lyoshik_done} complete
+condlist_0 = {+quest_meet_boris_done} complete
+
+[give_task_find_gun_boris]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 55
+storyline = false
+
+title = give_task_find_gun_boris_name
+target = {=actor_has_item(wpn_svd_nimble) =actor_has_item(wpn_svd_nimble)} boris_blade
+descr = {=actor_has_item(wpn_svd_nimble) =actor_has_item(wpn_svd_nimble)} give_task_find_gun_boris_descr_2, give_task_find_gun_boris_descr_1
+
+
+condlist_0 = {+boris_blade_quest_done} complete
+on_init = %=spawn_thief_boris_dead()%
+on_complete = %=reward_money(5500)%
+
+
+--Sergey--
 
 [give_task_lyoshik_5_sergey]
 icon = ui_iconsTotal_bar_crazy_veterans_quest
@@ -128,7 +149,7 @@ title = give_task_lyoshik_5_sergey
 target = {+sergey_malatov_where} sergey_malatov
 descr = give_task_lyoshik_5_sergey_descr
 
-condlist_0 = {+quest_meet_lyoshik_done} complete
+condlist_0 = {+quest_meet_sergey_done} complete
 
 [give_task_kill_hitsquad_sergey]
 icon = ui_inGame2_Laboratoriya_X8
@@ -147,9 +168,36 @@ on_complete = %=reward_money(5500)%
 ;------------------------------------------------------------------------------------------
 ; NIICHAVO QUESTLINES
 ;------------------------------------------------------------------------------------------
-[give_task_kill_satisfied_man_1]
+
+[give_task_find_translator]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 70
+storyline = false
+
+title = give_task_find_translator_name
+target = {+translator_found} roman_oiraoira, {+translator_vybegallo_done} carrier_translator, vybegallo 
+descr = {+translator_found} give_task_find_translator_descr_4, {+translator_vybegallo_done} give_task_find_translator_descr_3, {+vybegallo_start_2} give_task_find_translator_descr_2_2, {+vybegallo_start_1} give_task_find_translator_descr_2_1, give_task_find_translator_descr_1
+
+
+condlist_0 = {+give_task_find_translator_done} complete
+on_complete = %=reward_money(3500)%
+
+[give_task_find_tuna_bag]
 icon = ui_inGame2_Laboratoriya_X8
 prior = 55
+storyline = false
+
+title = give_task_find_tuna_bag_name
+target = {+vybegallo_tuna_found_done} esc_2_12_stalker_trader, {=actor_has_item(quest_package_vybegallo)} vybegallo, {-sidorovich_tuna_bag_done} esc_2_12_stalker_trader
+descr = {+vybegallo_tuna_found_done} give_task_find_tuna_bag_descr_4, {=actor_has_item(quest_package_vybegallo)} give_task_find_tuna_bag_descr_3, {+sidorovich_tuna_bag_done} give_task_find_tuna_bag_descr_2, give_task_find_tuna_bag_descr_1
+
+
+condlist_0 = {+tuna_reward_sido} complete
+
+
+[give_task_kill_satisfied_man_1]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
 storyline = false
 
 title = give_task_kill_satisfied_man_1_name
